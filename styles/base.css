@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Moon+Dance&display=swap');
 
 body {
@@ -72,11 +73,14 @@ main h2 {
     border: 1px solid #3D0B37;
 }
 
+main a {
+    text-decoration: none;
+}
+
 main h3 {
     background-color: #63264A;
     color: #E9FFF9;
     padding: 10px;
-    
     text-align: center;
 }
 
