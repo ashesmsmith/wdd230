@@ -1,4 +1,3 @@
-
 const copyrightYear = document.querySelector('#copyrightYear');
 const options = {
     year: 'numeric'

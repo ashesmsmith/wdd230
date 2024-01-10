@@ -1,25 +1,22 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Moon+Dance&display=swap');
 
 body {
     font-family: 'Montserrat', Tahoma, Airal;
     background-color: #E9FFF9;
-    display: grid;
-    grid-template-columns: 1fr 95% 1fr;
 }
 
 /* Header Elements */
 header {
-    grid-column: 2/3;
     background-color: #3D0B37;
+    width: 100%;
     padding: 10px;
-    display: grid; /* Grid within main grid */
+    display: grid;
     grid-template-columns: 1fr 45% 45% 1fr;
 }
 header img {
     grid-column: 2/3;
     align-self: center;
-    justify-self: center;
+    justify-self: end;
     border: 3px solid #E9FFF9;
 }
 
@@ -28,15 +25,16 @@ h1 {
     font-family: 'Moon Dance';
     font-weight: normal;
     color: #E9FFF9;
+    padding: 10px;
     align-self: center;
-    justify-self: center;
+    justify-self: start;
 }
 
 /* Nav Elements */
 nav {
-    grid-column: 2/3;
     background-color: #467599;
     color: #E9FFF9;
+    width: 100%;
     padding: 10px;
     text-align: center;
 }
@@ -48,15 +46,20 @@ nav a {
     display: block; /* Makes the nav items lineup vertically */
 }
 
+nav a:hover {
+    background-color: #9ed8db;
+    color: #3D0B37;
+    font-weight: bold;
+}
+
 /* Main Elements */
 main {
-    grid-column: 2/3;
     width: 90%;
     padding: 10px;
     margin: 10px;
     align-self: center;
     justify-self: center;
-    display: grid; /*Grid within main grid */
+    display: grid;
     grid-template-columns: 5px auto 5px;
 }
 
@@ -77,6 +80,12 @@ main a {
     text-decoration: none;
 }
 
+main a:hover {
+    background-color: #63264A;
+    color: #E9FFF9;
+    font-weight: bold;
+}
+
 main h3 {
     background-color: #63264A;
     color: #E9FFF9;
@@ -91,7 +100,6 @@ ul {
 
 /* Footer Elements*/
 footer {
-    grid-column: 2/3;
     background-color: #3D0B37;
     color: #E9FFF9;
     padding: 10px;
