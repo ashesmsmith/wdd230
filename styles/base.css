@@ -3,6 +3,8 @@
 body {
     font-family: 'Montserrat', Tahoma, Airal;
     background-color: #E9FFF9;
+    margin: 0; /* margin and padding 0 makes the header take up the whole space */
+    padding: 0;
 }
 
 /* Header Elements */
@@ -32,7 +34,7 @@ h1 {
 
 /* Nav Elements */
 nav {
-    background-color: #467599;
+    background-color: #124559;
     color: #E9FFF9;
     width: 100%;
     padding: 10px;
@@ -81,13 +83,13 @@ main a {
 }
 
 main a:hover {
-    background-color: #63264A;
+    background-color: #124559;
     color: #E9FFF9;
     font-weight: bold;
 }
 
 main h3 {
-    background-color: #63264A;
+    background-color: #679436;
     color: #E9FFF9;
     padding: 10px;
     text-align: center;
