@@ -19,14 +19,14 @@ header img {
     grid-column: 2/3;
     align-self: center;
     justify-self: end;
-    border: 3px solid #E9FFF9;
+    border: 3px solid #762D58;
 }
 
 h1 {
     grid-column: 3/4;
     font-family: 'Moon Dance';
     font-weight: normal;
-    color: #E9FFF9;
+    color: white;
     padding: 10px;
     align-self: center;
     justify-self: start;
@@ -35,22 +35,22 @@ h1 {
 /* Nav Elements */
 nav {
     background-color: #124559;
-    color: #E9FFF9;
+    color: white;
     width: 100%;
     padding: 10px;
     text-align: center;
 }
 
 nav a {
-    color: #E9FFF9;
+    color: white;
     padding: 2px;
     text-decoration: none; /* removes underline from hyperlink */
     display: block; /* Makes the nav items lineup vertically */
 }
 
 nav a:hover {
-    background-color: #9ed8db;
-    color: #3D0B37;
+    background-color: #54838C;
+    color: white;
     font-weight: bold;
 }
 
@@ -84,13 +84,13 @@ main a {
 
 main a:hover {
     background-color: #124559;
-    color: #E9FFF9;
+    color: white;
     font-weight: bold;
 }
 
 main h3 {
-    background-color: #679436;
-    color: #E9FFF9;
+    background-color: #4A6F34;
+    color: white;
     padding: 10px;
     text-align: center;
 }
@@ -103,7 +103,7 @@ ul {
 /* Footer Elements*/
 footer {
     background-color: #3D0B37;
-    color: #E9FFF9;
+    color: white;
     padding: 10px;
     text-align: center; 
 }
