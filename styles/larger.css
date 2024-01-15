@@ -1,0 +1,32 @@
+@media screen and (min-width: 700px) {
+
+    nav ul {
+        display: flex;
+    }
+
+    nav ul li {
+        flex: 1 1 100%;
+    }
+
+    main {
+        width: 95%;
+        margin: auto;
+        padding: 1rem;
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        grid-gap: 1rem;
+    }
+    
+    main h2 {
+        grid-column: span 2;
+        border-bottom: 1px solid #3D0B37;
+        text-align: center;
+    }
+    
+    .card {
+        grid-column: span 1;
+        text-align: center;
+        border: 1px solid #3D0B37;
+    }
+    
+}
