@@ -101,10 +101,6 @@ footer {
 
 /* Large Screens */
 @media  screen and (min-width: 1060px) {
-    body {
-        font-size: 1.5rem;
-    }
-
     main {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
