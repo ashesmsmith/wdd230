@@ -1,7 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Moon+Dance&display=swap');
-
 body {
-    font-family: 'Montserrat', Tahoma, Airal;
+    font-family: 'Montserrat', Tahoma;
     background-color: white;
     margin: 0;
     padding: 0;
@@ -23,7 +21,7 @@ h1 {
 }
 
 h2 {
-    font-family: 'Moon Dance';
+    font-family: 'Moon Dance', Georgia;
     font-weight: normal;
     margin: 0;
     padding: 1rem;
@@ -91,10 +89,6 @@ footer {
 
 /* Medium Screens */
 @media  screen and (min-width: 710px) {
-    body {
-        font-size: 1.5rem;
-    }
-
     main {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -108,7 +102,7 @@ footer {
 /* Large Screens */
 @media  screen and (min-width: 1060px) {
     body {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     main {
