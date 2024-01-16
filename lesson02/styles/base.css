@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Moon+Dance&display=swap');
+
+body {
+    font-family: 'Montserrat', Tahoma, Airal;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Elements */
+header {
+    font-weight: normal;
+    background-color: #3D0B37;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    padding: 1rem;
+    border-bottom: 1px solid white;
+}
+
+h2 {
+    font-family: 'Moon Dance';
+    font-weight: normal;
+    margin: 0;
+    padding: 1rem;
+}
+
+/* Main Elements */
+section {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-content: start;
+}
+
+.card {
+    margin: 1.5rem;
+    border: 1px solid #3D0B37;
+    border-radius: 15px 15px 0px 0px;
+}
+
+h3 {
+    background-color: #124559;
+    color: white;
+    margin: 0;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 15px 15px 0px 0px;
+}
+
+h4, a {
+    margin: 0;
+    padding: 1rem;
+    text-align: left;
+}
+
+img {
+    max-width: 80%;
+    padding: 1rem;
+    justify-self: center;
+    border: 1px solid #3D0B37;
+}
+
+.description {
+    padding: 1rem;
+}
+
+p {
+    text-align: center;
+}
+
+/* Footer Elements */
+footer {
+    background-color: #3D0B37;
+    color: white;
+    padding: 1rem;
+}
+
+
+/* Media Queries */
+/* Small Screens */
+@media  screen and (min-width: 425px) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Medium Screens */
+@media  screen and (min-width: 710px) {
+    body {
+        font-size: 1.5rem;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    section:nth-child(3) {
+        grid-column: span 2;
+    }
+}
+
+/* Large Screens */
+@media  screen and (min-width: 1060px) {
+    body {
+        font-size: 2rem;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    section:nth-child(3) {
+        grid-column: span 1;
+    }
+}
