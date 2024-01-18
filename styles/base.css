@@ -54,7 +54,6 @@ nav a {
 nav a:hover {
     background-color: #5C8F99;
     color: white;
-    font-weight: bold;
 }
 
 /* Main Elements */
@@ -84,14 +83,14 @@ main a {
 }
 
 main a:hover {
-    background-color: #5C8F99;
-    color: white;
+    color: #124559;
     font-weight: bold;
 }
 
 main h3 {
     background-color: #3D0B37;
     color: white;
+    font-weight: normal;
     margin: 0;
     padding: 1rem;
     text-align: center;
@@ -104,7 +103,7 @@ main ul {
 
 /* Footer Elements*/
 footer {
-    background-color: #3D0B37;
+    background-color: #124559;
     color: white;
     padding: .5rem;
     text-align: center; 
