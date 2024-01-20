@@ -10,30 +10,30 @@ header {
     background-color: #3D0B37;
     padding: 1rem;
     display: grid;
-    grid-template-columns: 1fr 2fr 2fr 1fr;
+    grid-template-columns: 2fr 2fr;
 }
+
 header img {
-    grid-column: 2/3;
+    grid-column: 1/2;
     align-self: center;
     justify-self: center;
-    border: 3px solid #762D58;
+    border: 3px solid #762d58;
 }
 
 h1 {
-    grid-column: 3/4;
+    grid-column: 2/3;
     font-family: 'Moon Dance', Georgia;
     font-weight: normal;
     font-size: 3rem;
     color: white;
     padding: 1rem;
     align-self: center;
-    justify-self: center;
+    justify-self: start;
 }
 
 /* Nav Elements */
 nav {
     background-color: #124559;
-    color: white;
     margin: 0 auto;
 }
 
@@ -52,7 +52,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #5C8F99;
+    background-color: #5c8f99;
     color: white;
 }
 
@@ -79,11 +79,11 @@ main h2 {
 }
 
 main a {
+    color: #3D0B37;
     text-decoration: none;
 }
 
 main a:hover {
-    color: #124559;
     font-weight: bold;
 }
 
