@@ -23,14 +23,14 @@
     
     main h2 {
         grid-column: span 2;
-        border-bottom: 1px solid #3D0B37;
+        border-bottom: 1px solid black;
         text-align: center;
     }
     
     .card {
         grid-column: span 1;
         text-align: center;
-        border: 1px solid #3D0B37;
+        border: 1px solid black;
     }
     
 }

@@ -7,7 +7,7 @@ body {
 
 /* Header Elements */
 header {
-    background-color: #3D0B37;
+    background-color: black;
     padding: 1rem;
     display: grid;
     grid-template-columns: 2fr 2fr;
@@ -17,7 +17,7 @@ header img {
     grid-column: 1/2;
     align-self: center;
     justify-self: center;
-    border: 3px solid #762d58;
+    border: 3px solid #525252;
 }
 
 h1 {
@@ -33,7 +33,7 @@ h1 {
 
 /* Nav Elements */
 nav {
-    background-color: #79F269;
+    background-color: #64F65A;
     margin: 0 auto;
 }
 
@@ -44,14 +44,14 @@ nav ul {
 
 nav a {
     display: block;
-    color: #3D0B37;
+    color: black;
     padding: 1rem;
     text-align: center;
     text-decoration: none;
 }
 
 nav a:hover {
-    background-color: #a33e79;
+    background-color: #BD0F69;
     color: white;
 } 
 
@@ -67,18 +67,18 @@ main {
 
 main h2 {
     grid-column: 2/3;
-    border-bottom: 1px solid #3D0B37;
+    border-bottom: 1px solid black;
     text-align: center;
 }
 
 .card {
     grid-column: 2/3;
     text-align: center;
-    border: 1px solid #3D0B37;
+    border: 1px solid #525252;
 }
 
 main a {
-    color: #3D0B37;
+    color: black;
     text-decoration: none;
 }
 
@@ -87,7 +87,7 @@ main a:hover {
 }
 
 main h3 {
-    background-color: #3D0B37;
+    background-color: #BD0F69;
     color: white;
     font-weight: normal;
     margin: 0;
@@ -115,8 +115,8 @@ iframe {
 
 /* Footer Elements*/
 footer {
-    background-color: #79F269;
-    color: #3D0B37;
+    background-color: #525252;
+    color: #64F65A;
     padding: .5rem;
     text-align: center; 
 }
@@ -126,8 +126,8 @@ footer {
 
     #menu {
         font-size: 2rem;
-        border: 1px solid #3D0B37;
-        background-color: #79F269;
+        border: 1px solid black;
+        background-color: #64F65A;
         color: white;
         position: absolute;
         top: 1rem;
@@ -147,7 +147,7 @@ footer {
         flex-direction: column;
         margin: 0;
         list-style: none;
-        background-color: #79F269;
+        background-color: #64F65A;
     }
 
     .navigation li {
@@ -156,14 +156,14 @@ footer {
 
     .navigation li a {
         display: block;
-        color: #3D0B37;
+        color: black;
         padding: 1rem;
         text-align: center;
         text-decoration: none;
     }
 
     .navigation li a:hover {
-        background-color: #762d58;
+        background-color: #AF0E62;
         color: white;
     }
 
