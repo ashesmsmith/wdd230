@@ -74,7 +74,7 @@ main h2 {
 .card {
     grid-column: 2/3;
     text-align: center;
-    border: 1px solid #525252;
+    border: 1px solid black;
 }
 
 main a {
@@ -163,7 +163,7 @@ footer {
     }
 
     .navigation li a:hover {
-        background-color: #AF0E62;
+        background-color: #BD0F69;
         color: white;
     }
 

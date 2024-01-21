@@ -8,13 +8,14 @@ body {
 /* Header Elements */
 header {
     font-weight: normal;
-    background-color: #3D0B37;
+    background-color: black;
     color: white;
     padding: 1rem;
     text-align: center;
 }
 
 h1 {
+    color: #BD0F69;
     margin: 0;
     padding: 1rem;
     border-bottom: 1px solid white;
@@ -36,13 +37,13 @@ section {
 
 .card {
     margin: 1.5rem;
-    border: 1px solid #3D0B37;
+    border: 1px solid black;
     border-radius: 15px 15px 0px 0px;
 }
 
 h3 {
-    background-color: #124559;
-    color: white;
+    background-color: #64F65A;
+    color: black;
     margin: 0;
     padding: 1rem;
     text-align: center;
@@ -59,7 +60,7 @@ img {
     max-width: 80%;
     padding: 1rem;
     justify-self: center;
-    border: 1px solid #3D0B37;
+    border: 1px solid black;
 }
 
 .description {
@@ -72,8 +73,8 @@ p {
 
 /* Footer Elements */
 footer {
-    background-color: #3D0B37;
-    color: white;
+    background-color: #525252;
+    color: #64F65A;
     padding: 1rem;
 }
 
