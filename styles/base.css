@@ -31,6 +31,11 @@ h1 {
     justify-self: start;
 }
 
+h1::first-letter {
+    font-size: 5rem;
+    color: #BD0F69;
+}
+
 /* Nav Elements */
 nav {
     background-color: #64F65A;
@@ -54,6 +59,14 @@ nav a:hover {
     background-color: #BD0F69;
     color: white;
 } 
+
+.active::before {
+    content: "| ";
+}
+
+.active::after {
+    content: " |";
+}
 
 /* Main Elements */
 main {
