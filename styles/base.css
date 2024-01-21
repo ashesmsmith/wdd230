@@ -88,6 +88,7 @@ main h2 {
     grid-column: 2/3;
     text-align: center;
     border: 1px solid black;
+    border-radius: 15px 15px 0px 0px;
 }
 
 main a {
@@ -106,6 +107,7 @@ main h3 {
     margin: 0;
     padding: 1rem;
     text-align: center;
+    border-radius: 15px 15px 0px 0px;
 }
 
 main ul {
