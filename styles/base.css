@@ -49,7 +49,7 @@ nav ul {
 
 nav a {
     display: block;
-    color: #03DD20;
+    color: white;
     padding: 1rem;
     text-align: center;
     text-decoration: none;
@@ -143,7 +143,6 @@ footer {
 
     #menu {
         font-size: 2rem;
-        border: 1px solid #03DD20;
         background-color: #525252;
         color: white;
         position: absolute;
@@ -173,7 +172,7 @@ footer {
 
     .navigation li a {
         display: block;
-        color: #03DD20;
+        color: white;
         padding: 1rem;
         text-align: center;
         text-decoration: none;
