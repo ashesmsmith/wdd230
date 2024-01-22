@@ -1,0 +1,35 @@
+
+/* Color Schema */
+.primary, .secondary, .accent1, .accent2, .accent3 {
+    padding: 1rem;
+}
+
+.primary {
+    background-color: #8D99AE;
+}
+
+.secondary {
+    background-color: #EDF2F4;
+}
+
+.accent1 {
+    background-color: #2B2D42;
+    color: #EDF2F4;
+}
+
+.accent2 {
+    background-color: #D90429;
+}
+
+.accent3 {
+    background-color: #EF233C;
+}
+
+/* Typography */
+body {
+    font-family: 'Montserrat';
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Moon Dance';
+}

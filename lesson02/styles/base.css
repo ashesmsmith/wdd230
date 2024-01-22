@@ -18,11 +18,12 @@ h1 {
     color: #BD0F69;
     margin: 0;
     padding: 1rem;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid #03DD20;
 }
 
 h2 {
     font-family: 'Moon Dance', Georgia;
+    color: white;
     font-weight: normal;
     margin: 0;
     padding: 1rem;
@@ -42,8 +43,8 @@ section {
 }
 
 h3 {
-    background-color: #64F65A;
-    color: black;
+    background-color: #BD0F69;
+    color: white;
     margin: 0;
     padding: 1rem;
     text-align: center;
@@ -74,7 +75,7 @@ p {
 /* Footer Elements */
 footer {
     background-color: #525252;
-    color: #64F65A;
+    color: white;
     padding: 1rem;
 }
 
