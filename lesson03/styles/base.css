@@ -1,3 +1,41 @@
+body {
+    text-align: center;
+    margin: 0;
+}
+
+header {
+    background-color: #8D99AE;
+    padding: 1rem;
+    border-bottom: 5px solid #EF233C;
+}
+
+h2 {
+    color: #D90429;
+    text-decoration: underline;
+}
+
+section {
+    background-color: #EDF2F4;
+    margin: 1rem;
+    border: 1px solid #2B2D42;
+}
+
+.scenarios {
+    padding-bottom: 1rem;
+    list-style: none;
+}
+
+.desktop {
+    width: 95%;
+    height: auto;
+    padding: 1rem;
+}
+
+.mobile {
+    max-width: 100%;
+    height: auto;
+    padding: 1rem;
+}
 
 /* Color Schema */
 .primary, .secondary, .accent1, .accent2, .accent3 {
@@ -25,11 +63,17 @@
     background-color: #EF233C;
 }
 
+table {
+    margin: 0 auto;
+    padding: 1rem;
+    text-align: center;
+}
+
 /* Typography */
 body {
     font-family: 'Montserrat';
 }
 
 h1, h2, h3, h4 {
-    font-family: 'Moon Dance';
+    font-family: 'Instrument Serif';
 }
