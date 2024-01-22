@@ -15,6 +15,8 @@ header {
 }
 
 h1 {
+    font-family: 'Instrument Serif', Georgia;
+    font-size: 2.5rem;
     color: #BD0F69;
     margin: 0;
     padding: 1rem;
@@ -22,7 +24,6 @@ h1 {
 }
 
 h2 {
-    font-family: 'Moon Dance', Georgia;
     color: white;
     font-weight: normal;
     margin: 0;
