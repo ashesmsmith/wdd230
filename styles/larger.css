@@ -4,11 +4,11 @@
         display: none;
     }
     
-    nav ul {
+    nav {
         display: flex;
     }
 
-    nav ul li {
+    nav a {
         flex: 1 1 100%;
     }
 

@@ -42,11 +42,6 @@ nav {
     margin: 0 auto;
 }
 
-nav ul {
-    margin: 0;
-    list-style: none;
-}
-
 nav a {
     display: block;
     color: white;
@@ -54,6 +49,7 @@ nav a {
     text-align: center;
     text-decoration: none;
 }
+
 
 nav a:hover {
     background-color: #03DD20;
@@ -154,38 +150,16 @@ footer {
         content: "≡";
     }
 
+    .navigation {
+        display: none;
+    }
+
     #menu.open::before {
         content: "Ⅹ";
     }
 
-    .navigation {
-        display: flex;
-        flex-direction: column;
-        margin: 0;
-        list-style: none;
-        background-color: #525252;
-    }
-
-    .navigation li {
-        display: none;
-    }
-
-    .navigation li a {
-        display: block;
-        color: white;
-        padding: 1rem;
-        text-align: center;
-        text-decoration: none;
-    }
-
-    .navigation li a:hover {
-        background-color: #03DD20;
-        color: black;
-    }
-
     /* Open navigation when button clicked */
-    .open li {
+    .open {
         display: block;
-        width: 100%;
     }
 }
