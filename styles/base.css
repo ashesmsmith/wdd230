@@ -52,8 +52,8 @@ nav a {
 
 
 nav a:hover {
-    background-color: #03DD20;
-    color: black;
+    background-color: #BD0F69;
+    color: white;
 } 
 
 .active::before {
@@ -122,6 +122,7 @@ iframe {
     margin: auto;
     padding: 1rem;
     height: 400px;
+    border: 0;
 }
 
 /* Footer Elements*/
