@@ -40,6 +40,7 @@ section {
 /* Color Schema */
 .primary, .secondary, .accent1, .accent2, .accent3 {
     padding: 1rem;
+    border: 1px solid #2B2D42;
 }
 
 .primary {
