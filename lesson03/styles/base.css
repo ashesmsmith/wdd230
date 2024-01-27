@@ -1,23 +1,25 @@
 body {
+    color: #10192E;
     text-align: center;
     margin: 0;
 }
 
 header {
-    background-color: #8D99AE;
+    background-color: #0A2463;
+    color: #6A93F0;
     padding: 1rem;
-    border-bottom: 5px solid #EF233C;
+    border-bottom: 5px solid #6A93F0;
 }
 
 h2 {
-    color: #D90429;
+    color: #0096B8;
     text-decoration: underline;
 }
 
 section {
-    background-color: #EDF2F4;
+    background-color: #ECF1FD;
     margin: 1rem;
-    border: 1px solid #2B2D42;
+    border: 1px solid #10192E;
 }
 
 .scenarios {
@@ -40,29 +42,30 @@ section {
 /* Color Schema */
 .primary, .secondary, .accent1, .accent2, .accent3 {
     padding: 1rem;
-    border: 1px solid #2B2D42;
+    border: 1px solid #10192E;
 }
 
 .primary {
-    background-color: #8D99AE;
+    background-color: #0A2463;
+    color: #ECF1FD;
 }
 
 .secondary {
-    background-color: #EDF2F4;
+    background-color: #6A93F0;
 }
 
 .accent1 {
-    background-color: #2B2D42;
-    color: #EDF2F4;
+    background-color: #ECF1FD;
 }
 
 .accent2 {
-    background-color: #D90429;
-    color: #EDF2F4;
+    background-color: #0096B8;
+    color: #ECF1FD;
 }
 
 .accent3 {
-    background-color: #EF233C;
+    background-color: #10192E;
+    color: #ECF1FD;
 }
 
 table {
