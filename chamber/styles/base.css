@@ -1,0 +1,104 @@
+body {
+    font-family: 'Montserrat';
+    margin: 0;
+}
+
+h1, h2 {
+    font-family: 'Instrument Serif';
+    text-align: center;
+}
+
+/* Header */
+header {
+    background-color: #0A2463;
+    color: #ECF1FD;
+    margin: auto;
+    padding: 1rem;
+    letter-spacing: .5rem;
+}
+
+/* Navigation */
+#menu {
+    background-color: #6A93F0;
+    color: #10192E;
+    width: 100%;
+    text-align: center;
+    border: none;
+}
+
+#menu::before {
+    content: '≡';
+}
+
+.navigation {
+    display: none;
+}
+
+#menu.open::before {
+    content: '⨉';
+}
+
+.open{
+    display: block;
+    background-color: #ECF1FD;
+}
+
+nav {
+    background-color: #6A93F0;
+}
+
+nav a {
+    display: block;
+    color: #10192E;
+    padding: .5rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #10192E;
+    color: #6A93F0;
+}
+
+/* Main */
+.hero {
+    width: 100%;
+    height: auto;
+}
+
+.cta {
+    margin: auto;
+    text-align: center;   
+}
+
+.cta-btn {
+    background-color: #0096B8;
+    width: 75px;
+    padding: .5rem;
+    margin: auto;
+    text-align: center;
+    border: #0A2463 solid 1px;
+    border-radius: 5px;
+}
+
+.events, .spotlights {
+    background-color: #ECF1FD;
+    margin: .5rem;
+    padding: 1rem;
+    border: #0A2463 solid 1px;
+}
+
+.weather {
+    background-color: #6A93F0;
+    margin: .5rem;
+    border: #0A2463 solid 1px;
+}
+
+/* Footer */
+footer {
+    background-color: #10192E;
+    color: #0096B8;
+    padding: 1rem;
+    text-align: center;
+    line-height: 1rem;
+}
