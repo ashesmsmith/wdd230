@@ -62,7 +62,7 @@ nav a:hover {
 
 /* Main */
 .hero {
-    width: 100%;
+    max-width: 100%;
     height: auto;
 }
 
