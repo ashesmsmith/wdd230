@@ -40,7 +40,7 @@ section {
 }
 
 /* Color Schema */
-.primary, .secondary, .accent1, .accent2, .accent3 {
+.primary, .secondary, .accent1, .accent2 {
     padding: 1rem;
     border: 1px solid #10192E;
 }
@@ -59,11 +59,6 @@ section {
 }
 
 .accent2 {
-    background-color: #0096B8;
-    color: #10192E;
-}
-
-.accent3 {
     background-color: #10192E;
     color: #ECF1FD;
 }
