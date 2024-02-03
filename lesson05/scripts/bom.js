@@ -5,6 +5,7 @@ const list = document.querySelector('#list');
 button.addEventListener('click', () => {
   if (input.value === '') {
     input.focus();
+    alert('Please enter a chapter and verus.');
   }  
 
   else {
@@ -23,6 +24,4 @@ button.addEventListener('click', () => {
         input.value = '';
     })
   }
-
-
 })
