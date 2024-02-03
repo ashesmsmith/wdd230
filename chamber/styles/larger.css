@@ -1,4 +1,4 @@
-@media (min-width:800px) {
+@media (min-width: 800px) {
 
     /* Navigation */
     .navigation {
@@ -49,6 +49,7 @@
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         background-color: white;
+        margin: 0;
         border: none;
         text-align: center;
     }

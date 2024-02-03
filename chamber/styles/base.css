@@ -18,9 +18,65 @@ header {
 
 h1 {
     margin: 0;
-    padding: 2rem;
+    padding: 3rem;
 }
 
+/* Switch Box - Dark Mode */
+/* The switch - the box around the slider */
+.switch {
+    position: absolute;
+    top: .5rem;
+    right: 1rem;
+    display: inline-block;
+    width: 2rem;
+    height: 1rem;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #10192E;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: .5rem;
+    width: .5rem;
+    left: .25rem;
+    bottom: .25rem;
+    background-color: #ECF1FD;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #ECF1FD;
+  }
+  
+  input:checked + .slider:before {
+    background-color: #10192E;
+    height: .5rem;
+    width: .5rem;
+    -webkit-transform: translateX(16px);
+    -ms-transform: translateX(16px);
+    transform: translateX(16px);
+  }
+   
 /* Navigation */
 #menu {
     background-color: #6A93F0;
@@ -28,7 +84,7 @@ h1 {
     text-align: center;
     border: none;
     position: absolute;
-    top: 1rem;
+    top: 2rem;
     right: 1rem;
 }
 
@@ -66,13 +122,21 @@ nav a:hover {
 }
 
 /* Main */
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
 .hero {
+    grid-column: 1/2;
+    grid-row: 1/2;
     max-width: 100%;
     height: auto;
 }
 
 .cta {
-    margin: auto;
+    grid-column: 1/2;
+    grid-row: 1/2;
     text-align: center;   
 }
 
