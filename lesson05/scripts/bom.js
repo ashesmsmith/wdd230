@@ -21,7 +21,9 @@ button.addEventListener('click', () => {
     dlt.addEventListener('click', () => {
         list.removeChild(li);
         input.focus();
-        input.value = '';
     })
+
+    input.focus();
+    input.value = '';
   }
 })
