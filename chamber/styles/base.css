@@ -130,7 +130,7 @@ main {
 .hero {
     grid-column: 1/2;
     grid-row: 1/2;
-    max-width: 100%;
+    width: 100%;
     height: auto;
 }
 
@@ -143,7 +143,7 @@ main {
 .cta-btn {
     background-color: #0A2463;
     color: #ECF1FD;
-    width: 75px;
+    width: 5rem;
     padding: .5rem;
     margin: auto;
     text-align: center;

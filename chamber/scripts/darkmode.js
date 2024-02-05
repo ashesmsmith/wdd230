@@ -7,14 +7,14 @@ const spotlights = document.querySelector('.spotlights')
 
 darkBox.addEventListener('click', () => {
     // Turn Dark Mode OFF
-    if (darkBox.textContent.includes('☀')) {
+    if (darkBox.textContent.includes(' ')) {
         main.style.background = '#fff';
         main.style.color = '#000';
         events.style.background = '#ECF1FD';
         weather.style.background = '#6A93F0';
         darkBox.textContent = '';
 
-        if (window.matchMedia('(min-width: 800px)').matches) {
+        if (window.matchMedia('(min-width: 1000px)').matches) {
             spotlights.style.background = '#fff';
         }
 
@@ -30,9 +30,9 @@ darkBox.addEventListener('click', () => {
         ctah2.style.color = '#000';
         events.style.background = '#343A40';
         weather.style.background = '#343A40';
-        darkBox.textContent = '☀';
+        darkBox.textContent = ' ';
 
-        if (window.matchMedia('(min-width: 800px)').matches) {
+        if (window.matchMedia('(min-width: 1000px)').matches) {
             spotlights.style.background = '#000';
         }
 
