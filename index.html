@@ -28,7 +28,7 @@
 
 <body>
     <header>
-        <img src="images/profile.jpg" alt="Profile Picture" width="138" height="184">
+        <img src="images/profile.webp" alt="Profile Picture" width="138" height="184">
         <h1>Ashley Smith</h1>
     </header>
 
@@ -42,6 +42,18 @@
     </nav>
 
     <main>
+        
+        <div class="hero">
+            <picture>
+                <source srcset="images/rexburg-temple-smaller.webp" media="(max-width: 400px)">
+                <img src="images/rexburg-temple.webp" alt="Rexburg Idaho Temple" width="960" height="600">
+            </picture>
+
+            <div class="hero-label">
+            <p>Rexburg Idaho Temple</p>
+        </div>
+        </div>
+
         <h2>WDD 230: Web Frontend Development</h2>
 
         <section class="card">
@@ -106,7 +118,9 @@
         </section>
     </main>
    
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d46051.894752068925!2d-111.7881829!3d43.83005045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53540a4b807a98b1%3A0x4a49d8d1d2181c73!2sRexburg%2C%20ID!5e0!3m2!1sen!2sus!4v1706235017408!5m2!1sen!2sus"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <div class="iframe">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d46051.894752068925!2d-111.7881829!3d43.83005045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53540a4b807a98b1%3A0x4a49d8d1d2181c73!2sRexburg%2C%20ID!5e0!3m2!1sen!2sus!4v1706235017408!5m2!1sen!2sus"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
     
     <footer>
         <p>&#169; <span id="copyrightYear"></span> Ashley Smith - Idaho, USA</p>
