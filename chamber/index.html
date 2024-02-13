@@ -46,7 +46,19 @@
     </header>
 
     <main>
-        <img class="hero" src="images/mountain-road.webp" alt="mountain road" width="1200" height="801">
+        <div class="hero">
+            <picture>
+                <source srcset="images/small-448.webp" media="(max-width: 550px)">
+                <source srcset="images/medium-998.webp" media="(max-width: 1000px)">
+                <img src="images/large-1607.webp" alt="Temporary Image" width="1607" height="1071">
+            </picture>
+
+            <div class="hero-label">
+                <p class="small">Small</p>
+                <p class="medium">Medium</p>
+                <p class="large">Large</p>
+            </div>
+        </div>
         
         <section class="cta">
             <h2>Welcome to Rexburg</h2>
@@ -82,6 +94,9 @@
 
         <section class="weather">
             <h2>Weather</h2>
+            <p>Current Temp: <span id="current-temp">30</span>°</p>
+            <p>Wind Speed: <span id="wind-speed">10</span>mph</p>
+            <p>Wind Chill: <span id="wind-chill"></span></p>
         </section>
 
         <section class="spotlights">
@@ -114,5 +129,6 @@
     <script src="scripts/darkmode.js"></script>
     <script src="scripts/hamburger.js"></script>
     <script src="scripts/getdate.js"></script>
+    <script src="scripts/windchill.js"></script>
 </body>
 </html>
