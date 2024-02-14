@@ -52,6 +52,8 @@
         grid-column: 2/4;
         grid-row: 3/4;
         margin: .5rem;
+        display: flex;
+        justify-content: space-around;
     }
     
     .spotlights {

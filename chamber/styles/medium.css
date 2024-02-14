@@ -49,8 +49,9 @@
     .weather {
         grid-column: 2/3;
         grid-row: 2/3;
-        align-self: end;
-        justify-self: center;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
     }
 
     .events {
