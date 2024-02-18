@@ -14,8 +14,8 @@
         flex: 1 1 100%;
     }
 
-    /* Main */
-    main {
+    /* Main - Home Page*/
+    .home-page {
         display: grid;
         grid-template-columns: 1fr 2fr 1fr;
     }
@@ -35,7 +35,6 @@
         display: none;
     }
 
-        /* Sections */
     .cta {
         grid-column: 2/4;
         grid-row: 1/2;
@@ -69,5 +68,28 @@
     
     .spotlights h2 {
         grid-column: span 3;
+    }
+
+    /* Main - Discover Page */
+    .discover-page {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .sidebar-content {
+        grid-column: 1/2;
+        padding: 1rem;
+    }
+
+    .images {
+        grid-column: span 2;
+        padding: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .container {
+        max-width: 50%;
+        height: fit-content;
     }
 }

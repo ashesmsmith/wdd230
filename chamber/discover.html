@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rexburg Chamber of Commerce - Discover</title>
+    <meta name="description" content="Chamber of Commerce site for Rexburg, ID. Ashley Smith WDD 230 Project.">
+    <meta name="author" content="Ashley Smith">
+
+    <!-- Social Media Tags-->
+    <meta property="og:title" content="Rexburg Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://unsplash.com/photos/green-trees-on-mountain-under-white-clouds-during-daytime-tBLiSp022pQ">
+    <meta property="og:url" content="https://ashesmsmith.github.io/wdd230/chamber/">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Montserrat&display=swap" rel="stylesheet">
+
+    <!-- Stylesheets & Icon-->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <img src="images/logo.webp" alt="logo" width="500" height="500">
+            <h1>Rexburg Chamber of Commerce</h1>
+        </div>
+
+        <label class="switch">
+            <input type="checkbox">
+            <span class="slider"></span>
+          </label>
+
+        <button id="menu"></button>
+        <nav class="navigation">
+            <a href="index.html">Home</a>
+            <a href="#">Discover</a>
+            <a href="">Directory</a>
+            <a href="">Join</a>
+        </nav>
+    </header>
+
+    <main class="discover-page">
+        <section class="sidebar-content">
+            <h2>Discover Rexburg, Idaho</h2>
+            <p>Rexburg is a beautiful community located in South East Idaho.</p>
+
+            <h3>Demographic Data</h3>
+            <p>In 2021, Rexburg, ID had a population of 33.7k people with a median 
+                age of 22.8 and a median household income of $44,034. Between 2020 
+                and 2021 the population of Rexburg, ID grew from 29,064 to 33,684, 
+                a 15.9% increase and its median household income grew from $33,278 
+                to $44,034, a 32.3% increase.</p>
+            <p>97% of the residents in Rexburg, ID are U.S. citizens.</p>
+            <p>In 2021, the median property value in Rexburg, ID was $264,000, and 
+                the homeownership rate was 35.6%.</p>
+            <p>Most people in Rexburg, ID drove alone to work, and the average 
+                commute time was 12.9 minutes. The average car ownership in 
+                Rexburg, ID was 2 cars per household.</p>
+            
+            <p class="small-text">Data provided by: <a href="https://datausa.io/profile/geo/rexburg-id/">Data USA</a></p>
+
+            <h3>Education</h3>
+            <p>The largest universities in Rexburg, ID are:</p> 
+            <li>Brigham Young University-Idaho (7,639 degrees awarded in 2021),</li>
+            <li>Paul Mitchell the School-Rexburg (119 degrees)</li>
+            <li>Rexburg College of Massage Therapy (46 degrees)</li>
+
+            <p class="small-text">Data provided by: <a href="https://datausa.io/profile/geo/rexburg-id/">Data USA</a></p>
+
+            <h3>Outdoor Attractions</h3>
+            <p>Rexburg is surrounded by many outdoor attractions.</p>
+            <li>Yellowstone Bear World - 8.4 miles</li>
+            <li>St. Anthony Sand Dunes - 15.3 miles</li>
+            <li>Heise Hot Springs - 19.9 miles</li>
+            <li>7N Ranch Resort - 20.4 miles</li>
+            <li>Kelly Canyon Ski Resort - 23.5 miles</li>
+            <li>Mesa Falls - 43.5 miles</li>
+            <li>Jackson Hole - 80.8 miles</li>
+            <li>Yellowstone National Park - 83.3 miles</li>
+
+            <p class="small-text">Miles provided by Google Maps.</a></p>
+        </section>
+
+        <section class="images">
+            <div class="container">
+                <img src="images/bears.webp" alt="bears laying in grass" width="3" height="2">
+                <div class="middle">
+                    <p>Yellowstone Bear World</p>
+                </div>
+            </div>
+
+            <div class="container">
+                <img src="images/mesa-falls.webp" alt="mesa falls rainbow" loading="lazy" width="3" height="2">
+                <div class="middle">
+                    <p>Mesa Falls</p>
+                </div>
+            </div>
+
+            <div class="container">
+                <img src="images/sand-dune.webp" alt="sand dunes" loading="lazy" width="3" height="2">
+                <div class="middle">
+                    <p>St. Anthony Sand Dunes</p>
+                </div>
+            </div>
+
+            <div class="container">
+                <img src="images/horses.webp" alt="horses in snow" loading="lazy" width="3" height="2">
+                <div class="middle">
+                    <p>Ranches</p>
+                </div>
+            </div>
+
+            <div class="container">
+                <img src="images/hotpool.webp" alt="blue hotpool steamy" loading="lazy" width="3" height="2">
+                <div class="middle">
+                    <p>Yellowstone National Park</p>
+                </div>
+            </div>
+
+            <div class="container">
+                <img src="images/temple-night.webp" alt="rexburg temple at night" loading="lazy" width="3" height="2">
+                <div class="middle">
+                    <p>Rexburg Temple</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <img src="images/logo.webp" alt="logo" width="500" height="500">
+        <p>1-555-555-5555</p>
+        <p>email@address.com</p>
+        <p>&#169; <span id="copyrightYear"></span> Ashley Smith - WDD 230 Chamber Project</p>
+        <p>Last Modified: <span id="lastModified"></span></p>
+    </footer>
+
+    <script src="scripts/darkmode.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/getdate.js"></script>
+    <script src="scripts/windchill.js"></script>
+</body>
+</html>
