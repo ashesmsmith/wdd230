@@ -50,6 +50,11 @@
 
     <main class="discover-page">
         <section class="sidebar-content">
+            <div class="date-message">
+                <h4 class="current-date"></h4>
+                <p id="message"></p>
+            </div>
+
             <h2>Discover Rexburg, Idaho</h2>
             <p>Rexburg is a beautiful community located in South East Idaho.</p>
 
@@ -62,10 +67,6 @@
             <p>97% of the residents in Rexburg, ID are U.S. citizens.</p>
             <p>In 2021, the median property value in Rexburg, ID was $264,000, and 
                 the homeownership rate was 35.6%.</p>
-            <p>Most people in Rexburg, ID drove alone to work, and the average 
-                commute time was 12.9 minutes. The average car ownership in 
-                Rexburg, ID was 2 cars per household.</p>
-            
             <p class="small-text">Data provided by: <a href="https://datausa.io/profile/geo/rexburg-id/">Data USA</a></p>
 
             <h3>Education</h3>
@@ -73,7 +74,6 @@
             <li>Brigham Young University-Idaho (7,639 degrees awarded in 2021),</li>
             <li>Paul Mitchell the School-Rexburg (119 degrees)</li>
             <li>Rexburg College of Massage Therapy (46 degrees)</li>
-
             <p class="small-text">Data provided by: <a href="https://datausa.io/profile/geo/rexburg-id/">Data USA</a></p>
 
             <h3>Outdoor Attractions</h3>
@@ -86,7 +86,6 @@
             <li>Mesa Falls - 43.5 miles</li>
             <li>Jackson Hole - 80.8 miles</li>
             <li>Yellowstone National Park - 83.3 miles</li>
-
             <p class="small-text">Miles provided by Google Maps.</a></p>
         </section>
 
@@ -137,15 +136,17 @@
 
     <footer>
         <img src="images/logo.webp" alt="logo" width="500" height="500">
-        <p>1-555-555-5555</p>
-        <p>email@address.com</p>
-        <p>&#169; <span id="copyrightYear"></span> Ashley Smith - WDD 230 Chamber Project</p>
-        <p>Last Modified: <span id="lastModified"></span></p>
+        <div>
+            <p>1-555-555-5555</p>
+            <p>email@address.com</p>
+            <p>&#169; <span id="copyrightYear"></span> Ashley Smith - WDD 230 Chamber Project</p>
+            <p>Last Modified: <span id="lastModified"></span></p>
+        </div>
     </footer>
 
     <script src="scripts/darkmode.js"></script>
     <script src="scripts/hamburger.js"></script>
     <script src="scripts/getdate.js"></script>
-    <script src="scripts/windchill.js"></script>
+    <script src="scripts/visitmessage.js"></script>
 </body>
 </html>
