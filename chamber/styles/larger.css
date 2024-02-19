@@ -94,6 +94,10 @@
         flex: 50%;   
     }
 
+    .container img:hover {
+        rotate: .05turn;
+    }
+
     /* Footer */
     footer {
         display: grid;

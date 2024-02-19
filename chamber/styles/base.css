@@ -216,7 +216,7 @@ main {
 
 .date-message {
     margin-bottom: 3rem;
-    padding: 1rem;
+    padding: .5rem;
     text-align: center;
     border: 2px solid #0A2463;
 }
@@ -267,7 +267,7 @@ main {
 }
 
 .container:hover img {
-    opacity: 0.3;
+    opacity: .5;
 }
 
 .container:hover .middle {

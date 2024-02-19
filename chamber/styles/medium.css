@@ -65,4 +65,9 @@
         display: grid;
         grid-template-columns: 1fr;
     }
+
+    /* Discover Page */
+    .container img:hover {
+        rotate: .05turn;
+    }
 }
