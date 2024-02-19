@@ -66,7 +66,7 @@
         grid-template-columns: 1fr;
     }
 
-    /* Discover Page */
+    /* Main - Discover Page */
     .container img:hover {
         rotate: .05turn;
     }

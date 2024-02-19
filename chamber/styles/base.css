@@ -206,8 +206,6 @@ main {
         /* Sections */
 .discover-page {
     margin: 1rem;
-    justify-content: center;
-    align-items: center;
 }
 
 .sidebar-content, .images {
@@ -236,14 +234,9 @@ main {
     text-align: center;
 }
 
-.sidebar-content li {
-    line-height: 1.5rem;
-}
-
 .images img {
     width: 100%;
     height: auto;
-    padding: 1rem;
     opacity: 1;
     transition: .5s ease;
     backface-visibility: hidden;
