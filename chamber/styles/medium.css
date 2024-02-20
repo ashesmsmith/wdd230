@@ -30,16 +30,6 @@
         grid-row: 1/2;
     }
 
-    .medium {
-        display: contents;
-        font-size: 3rem;
-        font-weight: bold;
-    }
-    
-    .small, .large {
-        display: none;
-    }
-
     .cta {
         grid-column: 1/3;
         grid-row: 1/2;

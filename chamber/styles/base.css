@@ -137,7 +137,7 @@ main {
 }
 
     /* Home Page */
-        /* Hero Image and Label*/
+        /* Hero Image*/
 .hero {
     grid-column: 1/2;
     grid-row: 1/2;
@@ -149,22 +149,6 @@ main {
 .hero img {
     width: 100%;
     height: auto;
-}
-
-.hero-label {
-    background-color: white;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-}
-
-.small {
-    font-size: 3rem;
-    font-weight: bold;
-}
-
-.medium, .large {
-    display: none;
 }
 
         /* Sections */

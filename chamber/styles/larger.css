@@ -24,16 +24,6 @@
         grid-column: 2/4;
         grid-row: 1/3;
     }
-    
-    .large {
-        display: contents;
-        font-size: 3rem;
-        font-weight: bold;
-    }
-    
-    .small, .medium {
-        display: none;
-    }
 
     .cta {
         grid-column: 2/4;
