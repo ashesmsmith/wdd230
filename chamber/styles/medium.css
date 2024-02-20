@@ -67,6 +67,12 @@
     }
 
     /* Main - Discover Page */
+    .images {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
     .container img:hover {
         rotate: .05turn;
     }

@@ -3,7 +3,7 @@ body {
     margin: 0;
 }
 
-h1, h2 {
+h1, h2, h3 {
     font-family: 'Instrument Serif';
     text-align: center;
     margin: 0;
@@ -216,16 +216,7 @@ main {
     margin-bottom: 3rem;
     padding: .5rem;
     text-align: center;
-    border: 2px solid #0A2463;
-}
-
-.sidebar-content h2 {
-    font-size: 2rem;
-    text-decoration: underline;
-}
-
-.sidebar-content h3{
-    text-align: center;
+    border: 2px solid #10192E;
 }
 
 .small-text {
@@ -244,11 +235,11 @@ main {
 
 .container {
     position: relative;
-    width: 100%;
+    max-width: 100%;
     height: auto;
   }
   
-.middle {
+.image-label {
     transition: .5s ease;
     opacity: 0;
     position: absolute;
@@ -263,14 +254,16 @@ main {
     opacity: .5;
 }
 
-.container:hover .middle {
+.container:hover .image-label {
     opacity: 1;
 }
   
-.middle p {
-    background-color: #6A93F0;
+.image-label p {
+    background-color: #10192E;
+    color: #6A93F0;
     margin: 0;
     padding: 1rem;
+    border-radius: 25px 5px 25px 5px;
 }
 
 /* Footer */
