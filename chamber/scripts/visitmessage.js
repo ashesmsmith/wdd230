@@ -27,7 +27,7 @@ else if (formatLastVisit === formatDateToday) {
 }
 
 else {
-    let daysDifference = (msLastVisit - msDateToday) / msToDays;
+    let daysDifference = (msDateToday - msLastVisit) / msToDays;
 
     if (daysDifference === 1) {
         messageDisplay.textContent = `You last visited 1 day ago.`;
