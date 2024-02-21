@@ -92,9 +92,7 @@
     .images img {
         width: 100%;
         height: auto;
-        margin: 0;
-        padding: 0;
-        border: 2px solid #6A93F0;
+        border: 3px solid #6A93F0;
     }
 
     .one {
@@ -125,15 +123,5 @@
     .six {
         grid-column: 2/4;
         grid-row: 6/7;
-    }
-
-    /* Footer */
-    footer {
-        display: grid;
-        grid-template-columns: 1fr 2fr;
-    }
-
-    footer img {
-        margin: 0 auto;
     }
 }
