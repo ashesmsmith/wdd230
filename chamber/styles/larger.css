@@ -85,10 +85,6 @@
         align-items: center;
     }
 
-    .container img:hover {
-        rotate: .05turn;
-    }
-
     .images img {
         width: 100%;
         height: auto;
