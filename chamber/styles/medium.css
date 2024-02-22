@@ -72,7 +72,7 @@
     }
 
     .container img:hover {
-        rotate: .05turn;
+        transform: rotate(10deg);
     }
 
     /* Footer */
