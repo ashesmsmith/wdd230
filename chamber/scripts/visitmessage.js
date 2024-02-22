@@ -5,15 +5,11 @@ const messageDisplay = document.querySelector('#message');
 const msDateToday = Date.now(); //timestamp
 let dateToday = new Date(msDateToday); //timestamp as date
 let formatDateToday = `${dateToday.getDate()}/${dateToday.getMonth() + 1}/${dateToday.getFullYear()}`;
-console.log(`msDateToday: ${msDateToday}`);
 
 //Last Visit
 let msLastVisit = getDate() || 0; //return last timestamp or 0
 let lastVisit = new Date(msLastVisit); //timestamp as date
 let formatLastVisit = `${lastVisit.getDate()}/${lastVisit.getMonth() + 1}/${lastVisit.getFullYear()}`;
-console.log(`msLastVisit: ${msLastVisit}`);
-
-console.log((msDateToday - 1708398094) / msToDays);
 
 //Processing
 if (msLastVisit === 0) {
@@ -28,8 +24,9 @@ else if (formatLastVisit === formatDateToday) {
 
 else {
     let daysDifference = (msDateToday - msLastVisit) / msToDays;
+    console.log(`Days Diff: ${daysDifference}`);
 
-    if (daysDifference === 1) {
+    if (daysDifference.toFixed(0) <= 1) {
         messageDisplay.textContent = `You last visited 1 day ago.`;
         setDate();
     }
