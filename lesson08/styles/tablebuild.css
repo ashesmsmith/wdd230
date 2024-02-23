@@ -1,0 +1,31 @@
+table {
+    border-collapse: collapse;
+}
+
+caption {
+    caption-side: bottom;
+    margin: 1rem;
+}
+
+thead th, thead td {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+.plans {
+    background-color: darkslategray;
+}
+
+tbody th, tbody td{
+    text-align: center;
+    padding: .5rem;
+    border: 1px solid gray;
+}
+
+.stripe {
+    background-color: silver;
+}
