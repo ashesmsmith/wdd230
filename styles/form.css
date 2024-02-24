@@ -38,18 +38,19 @@ form input:required:valid {
 
 #rating {
     width: 180px;
-    margin-bottom: 0;
+    margin-left: 1rem;
 }
 
 #rangevalue {
     font-size: 1.5rem;
-    padding: .5rem;
     color: var(--accent-color1);
+    padding-left: 1rem;
 }
 
 #rangevalues {
     display: flex;
-    margin: 0 0 0 25px;
+    padding-left: 1rem;
+    margin: 0 0 0 21px;
     width: 180px;
 }
 

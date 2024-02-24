@@ -44,33 +44,33 @@
             <label>Username*<input type="text" id="username" name="username" 
                 required></label>
 
-            <label>Password*<p class="small-text">(Minimum 8 characters. No special 
-                characters.)</p><input type="password" id="password" 
+            <label>Password*<span class="small-text">(Minimum 8 characters. No special 
+                characters.)</span><input type="password" id="password" 
                 name="password" pattern="[A-Za-z0-9]{8,}" required></label>
 
             <label>Confirm Password<input type="password" id="password-confirm" 
                 name="password-confirm" pattern="[A-Za-z0-9]{8,}" required></label>
 
-            <label>Email*<p class="small-text">(@byui email required)</p><input type="email" id="email" name="email" 
+            <label>Email*<span class="small-text">(@byui email required)</span><input type="email" id="email" name="email" 
                 pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" required
                 title="Please enter a valid email address"></label>
 
-            <label>Page Rating:<div id="rangevalue">1</div>
-                <input type="range" id="rating" name="rating" 
+            <label for="rating">Page Rating:</label>
+            <div id="rangevalue">1</div>
+            <input type="range" id="rating" name="rating" 
                 min="1" max="10" value="0" step="1" list="rangevalues">
-                <datalist id="rangevalues">
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                    <option value="6">6</option>
-                    <option value="7">7</option>
-                    <option value="8">8</option>
-                    <option value="9">9</option>
-                    <option value="10">10</option>
-                </datalist>
-            </label>
+            <datalist id="rangevalues">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </datalist>
 
             <input type="submit" value="All Done!" id="submitBtn">
         </form>
