@@ -1,0 +1,76 @@
+:root {
+    --accent-color1: #BD0F69;
+    --accent-color2: #525252; 
+    --round-corner: 15px; 
+}
+
+#form-main {
+    display: block;
+}
+
+form {
+    margin: 1rem auto;
+    width: 100%;
+    max-width: 25rem;
+    border: 3px solid var(--accent-color2);
+    border-radius: var(--round-corner);
+}
+
+form label, form input{
+    display: block;
+    padding: 1rem;
+    border-radius: var(--round-corner);
+}
+
+form input:required {
+    border-left: 7px solid var(--accent-color1);
+}
+
+form input:required:valid {
+    border-left: 1px solid var(--accent-color2);
+}
+
+.small-text {
+    font-size: .8rem;
+    margin-top: 0;
+    margin-bottom: .5rem;
+}
+
+#rating {
+    width: 180px;
+    margin-bottom: 0;
+}
+
+#rangevalue {
+    font-size: 1.5rem;
+    padding: .5rem;
+    color: var(--accent-color1);
+}
+
+#rangevalues {
+    display: flex;
+    margin: 0 0 0 25px;
+    width: 180px;
+}
+
+#rangevalues option {
+    flex: 1 1 auto;
+}
+
+#submitBtn {
+    background-color: var(--accent-color2);
+    color: white;
+    font-size: 1.2rem;
+    width: 96%;
+    max-width: 20rem;
+    margin: 1rem;
+    text-align: center;
+}
+
+.form-message {
+    color: var(--accent-color1);
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

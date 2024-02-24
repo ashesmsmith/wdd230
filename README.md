@@ -1,1 +1,0 @@
-# Ashley Smith WDD230 - Web Frontend Development I
