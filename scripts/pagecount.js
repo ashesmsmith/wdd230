@@ -6,7 +6,7 @@ let numVisits = Number(window.localStorage.getItem('numVisits-ls')) || 0;
 
 //determine number of visits and display
 if (numVisits !== 0) {
-    pageVists.innerHTML = numVisits;
+    pageVists.textContent = numVisits;
 }
 
 else {
