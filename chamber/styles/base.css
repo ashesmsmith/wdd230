@@ -202,7 +202,6 @@ footer img {
 }
 
 /* DISCOVER PAGE - MAIN */
-        /* Sections */
 .discover-page {
     margin: 1rem;
 }
@@ -266,3 +265,59 @@ footer img {
 }
 
 /* JOIN PAGE - MAIN */
+.join-page {
+   display: block;
+}
+
+form fieldset {
+    margin: 1rem;
+    border: 2px solid #6A93F0;
+    border-bottom: 5px solid #6A93F0;
+    border-radius: 15px 5px 15px 5px;
+}
+
+form legend {
+    font-family: 'Instrument Serif';
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+
+form label.top input{
+    background-color: #ECF1FD;
+    display: block;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: 2px solid #0A2463;
+    border-radius: 5px;
+}
+
+form label.sbs {
+    padding: 1rem;
+}
+
+.mmbr-Desc {
+    margin: .3rem auto 1rem 2.4rem;
+}
+
+.join-now {
+    display: block;
+    background-color: #6A93F0;
+    color: #10192E;
+    font-size: 1.5rem;
+    width: 90%;
+    max-width: 20rem;
+    margin: 0 auto 1rem 1rem;
+    padding: 1rem;
+    border-radius: 15px;
+}
+
+/* THANK YOU PAGE - MAIN */
+.thankyou-page {
+    display: block;
+    font-size: 2rem;
+    text-align: center;
+    margin: 1rem;
+    padding: 2rem;
+    border: 2px solid #10192E;
+    border-radius: 20px;
+}
