@@ -1,5 +1,6 @@
 @media (min-width: 1000px) {
 
+    /* ALL PAGES */
     /* Navigation */
     .navigation {
         display: flex;
@@ -14,7 +15,7 @@
         flex: 1 1 100%;
     }
 
-    /* Main - Home Page*/
+    /* HOME PAGE - MAIN */
     .home-page {
         display: grid;
         grid-template-columns: 1fr 2fr 1fr;
@@ -60,7 +61,7 @@
         grid-column: span 3;
     }
 
-    /* Main - Discover Page */
+    /* DISCOVER PAGE - MAIN */
     .discover-page {
         display: grid;
         grid-template-columns: 1fr 1fr;

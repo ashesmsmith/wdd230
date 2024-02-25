@@ -1,3 +1,4 @@
+/* ALL PAGES */
 body {
     font-family: 'Montserrat';
     margin: 0;
@@ -136,7 +137,21 @@ main {
     grid-template-columns: 1fr;
 }
 
-    /* Home Page */
+/* Footer */
+footer {
+    background-color: #10192E;
+    color: #ECF1FD;
+    padding: 1rem;
+    text-align: center;
+    line-height: 1rem;
+}
+
+footer img {
+    width: 25%;
+    height: auto;
+}
+
+/* HOME PAGE - MAIN */
         /* Hero Image*/
 .hero {
     grid-column: 1/2;
@@ -186,7 +201,7 @@ main {
     border: #0A2463 solid 1px;
 }
 
-    /* Discover Page */
+/* DISCOVER PAGE - MAIN */
         /* Sections */
 .discover-page {
     margin: 1rem;
@@ -250,16 +265,4 @@ main {
     border-radius: 20px 5px 20px 5px;
 }
 
-/* Footer */
-footer {
-    background-color: #10192E;
-    color: #ECF1FD;
-    padding: 1rem;
-    text-align: center;
-    line-height: 1rem;
-}
-
-footer img {
-    width: 25%;
-    height: auto;
-}
+/* JOIN PAGE - MAIN */
