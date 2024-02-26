@@ -298,6 +298,14 @@ form label.sbs {
     padding: 1rem;
 }
 
+#bizorg-desc {
+    display: block;
+    width: 80%;
+    padding: 1rem;
+    border: 2px solid #0A2463;
+    border-radius: 5px;
+}
+
 .mmbr-Desc {
     margin: .3rem auto 1rem 2.4rem;
 }
