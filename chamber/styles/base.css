@@ -299,6 +299,7 @@ form label.sbs {
 }
 
 #bizorg-desc {
+    background-color: #ECF1FD;
     display: block;
     width: 80%;
     padding: 1rem;
