@@ -279,12 +279,13 @@ form fieldset {
 form legend {
     font-family: 'Instrument Serif';
     font-size: 1.5rem;
-    margin: 1rem;
+    margin: .5rem;
 }
 
 form label.top input{
     background-color: #ECF1FD;
     display: block;
+    width: 80%;
     margin-bottom: 1rem;
     padding: 1rem;
     border: 2px solid #0A2463;
@@ -292,6 +293,8 @@ form label.top input{
 }
 
 form label.sbs {
+    font-weight: bold;
+    font-size: 1.2rem;
     padding: 1rem;
 }
 

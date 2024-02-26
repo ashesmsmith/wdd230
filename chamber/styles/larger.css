@@ -121,4 +121,14 @@
         grid-column: 2/4;
         grid-row: 6/7;
     }
+
+    /* JOIN PAGE - MAIN */
+    .join-page form{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #mmbr-info {
+        grid-column: 1/3;
+    }
 }
