@@ -1,0 +1,37 @@
+{
+    "familyName": "Rees",
+    "moveInDate": "1/1/2024",
+    "numRecords": 5,
+    "visted": false,
+    "members": [
+        {
+            "name": "Toni",
+            "gender": "male",
+            "birthdate": "12/23/1966"
+        }
+        ,
+        {
+            "name": "Joanne",
+            "gender": "female",
+            "birthdate": "03/07/1971"
+        }
+        ,
+        {
+            "name": "Ryan",
+            "gender": "male",
+            "birthdate": "06/20/1995"
+        }
+        ,
+        {
+            "name": "Hailey",
+            "gender": "female",
+            "birthdate": "11/26/2004"
+        }
+        ,
+        {
+            "name": "Isabella",
+            "gender": "female",
+            "birthdate": "06/01/2009"
+        }
+    ]
+}
