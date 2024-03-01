@@ -102,22 +102,6 @@ main h2 {
     text-align: center;
 }
 
-.card {
-    margin: 1rem;
-    text-align: center;
-    border: 1px solid black;
-    border-radius: 15px 15px 0px 0px;
-}
-
-main a {
-    color: black;
-    text-decoration: none;
-}
-
-main a:hover {
-    font-weight: bold;
-}
-
 main h3 {
     background-color: #BD0F69;
     color: white;
@@ -128,13 +112,32 @@ main h3 {
     border-radius: 15px 15px 0px 0px;
 }
 
+.card {
+    margin: 1rem;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 15px 15px 0px 0px;
+}
+
 main ul {
     text-align: left;
     list-style: none;
 }
 
 main li {
+    font-weight: bold;
     padding: .25rem;
+}
+
+main a {
+    color: black;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+main a:hover {
+    color: #BD0F69;
+    font-weight: bold;
 }
 
 /* iframe Google Map*/
