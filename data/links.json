@@ -29,8 +29,18 @@
                 }
                 ,
                 {
+                    "url": "",
+                    "title": " | "
+                }
+                ,
+                {
                     "url": "lesson02/design.html",
                     "title": "Design"
+                }
+                ,
+                {
+                    "url": "",
+                    "title": " | "
                 }
                 ,
                 {
@@ -49,8 +59,18 @@
                 }
                 ,
                 {
+                    "url": "",
+                    "title": " | "
+                }
+                ,
+                {
                     "url": "https://codepen.io/fvezuklf-the-looper/pen/mdowEry?editors=1100",
                     "title": "Pseudo-elements Codepen"
+                }
+                ,
+                {
+                    "url": "",
+                    "title": " | "
                 }
                 ,
                 {
@@ -89,6 +109,11 @@
                 }
                 ,
                 {
+                    "url": "",
+                    "title": " | "
+                }
+                ,
+                {
                     "url": "lesson06/responsive-images.html",
                     "title": "Responsive Images"
                 }
@@ -101,6 +126,11 @@
                 {
                     "url": "lesson07/lazyload.html",
                     "title": "Lazy Loading"
+                }
+                ,
+                {
+                    "url": "",
+                    "title": " | "
                 }
                 ,
                 {
@@ -119,6 +149,11 @@
                 }
                 ,
                 {
+                    "url": "",
+                    "title": " | "
+                }
+                ,
+                {
                     "url": "lesson08/index.html",
                     "title": "Form Practice"
                 }
@@ -131,6 +166,11 @@
                 {
                     "url": "lesson09/new-ward-members.json",
                     "title": "JSON"
+                }
+                ,
+                {
+                    "url": "",
+                    "title": " | "
                 }
                 ,
                 {
