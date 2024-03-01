@@ -9,6 +9,10 @@
                 }
                 ,
                 {
+                    "title": " | "
+                }
+                ,
+                {
                     "url": "https://codepen.io/fvezuklf-the-looper/pen/xxBVLeb",
                     "title": "JS Codepen"
                 }
@@ -138,11 +142,6 @@
         {
             "lesson": "10",
             "links": [
-                {
-                    "url": "",
-                    "title": ""
-                }
-                ,
                 {
                     "url": "",
                     "title": ""
