@@ -333,3 +333,55 @@ form label.sbs {
     border: 2px solid #10192E;
     border-radius: 20px;
 }
+
+/* DIRECTORY PAGE - MAIN */
+.directory-page {
+    display: block;
+}
+
+.view-btns {
+    margin-top: .5rem;
+    padding: .5rem;
+    text-align: center;
+}
+
+#grid-btn, #list-btn {
+    background-color: #ECF1FD;
+    padding: .5rem 2rem;
+}
+
+.mmbr-info {
+    margin: .5rem;
+    padding: 1rem;
+    border: 2px solid #0A2463;
+    text-align: center;
+}
+
+.mmbr-info img {
+    padding: .5rem;
+    border: 1px solid #10192E;
+}
+
+.Gold {
+    color: darkgoldenrod;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.Silver {
+    color: darkslategray;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.Bronze {
+    color: saddlebrown;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.Non-Profit {
+    color: purple;
+    font-weight: bold;
+    margin-top: 0;
+}
