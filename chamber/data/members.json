@@ -1,0 +1,73 @@
+{
+    "members": [
+        {
+            "company": "Woody Smith Ford",
+            "address": "535 S Yellowstone Hwy, Rexburg, ID 83440",
+            "phone": "(208) 356-3636",
+            "url": "https://www.woodysmithford.com/",
+            "image": "images/WoodySmithFord.webp",
+            "mmbrlevel": "Gold",
+            "details": "The Woody Smith Company has been a Ford Dealer in Rexburg and the surrounding area for over 70 years."
+        }
+        ,
+        {
+            "company": "Teton Medical Group",
+            "address": "255 N 3rd E, Rexburg, ID 83440",
+            "phone": "(208) 356-7585",
+            "url": "https://www.tetonmedicalgroup.com/",
+            "image": "images/TetonMedical.webp",
+            "mmbrlevel": "Gold",
+            "details": "Internal Medicine. Urgent Care. Hospital Care. Medical Procedures. Labs. COVID Care."
+        }
+        ,
+        {
+            "company": "Red Rabbit Grill",
+            "address": "155 W Main Street #8, Rexburg, ID 83340",
+            "phone": "(208) 715-0002",
+            "url": "https://www.redrabbitgrill.com/rexburg-home",
+            "image": "images/RedRabbitGrill.webp",
+            "mmbrlevel": "Silver",
+            "details": "Open for dine-in, pick up and delivery."
+        }
+        ,
+        {
+            "company": "DanceIt",
+            "address": "241 S 5th W Unit 601, Rexburg, ID 83440",
+            "phone": "(208) 403-5988",
+            "url": "https://www.danceitllc.com/",
+            "image": "images/DanceIt.webp",
+            "mmbrlevel": "Silver",
+            "details": "Over 15 years of experience. Training in all dance forms. Expert instructors. Summer and fall dance classes."
+        }
+        ,
+        {
+            "company": "SOMA Jiu-Jitsu",
+            "address": "26 College Ave, Rexburg, ID 83440",
+            "phone": "(208) 516-0540",
+            "url": "https://www.rexburgbjj.com/",
+            "image": "images/SomaJiojitsu.webp",
+            "mmbrlevel": "Bronze",
+            "details": "Professional Gracie Jiu-Jitsu."
+        }
+        ,
+        {
+            "company": "Collective Curl Salon",
+            "address": "556 Trejo St Unit B, Rexburg, ID 83440",
+            "phone": "(208) 206-2552",
+            "url": "https://www.collectivecurlsalonandsuites.com/",
+            "image": "images/CollectiveCurl.webp",
+            "mmbrlevel": "Bronze",
+            "details": "Salon and Suites. Curly Hair Specialist Of Idaho"
+        }
+        ,
+        {
+            "company": "Family Crisis Center",
+            "address": "16 E Main St, Rexburg, ID 83440",
+            "phone": "(208) 356-0065",
+            "url": "https://familycrisiscenter.wixsite.com/familycrisiscenter",
+            "image": "images/FamilyCrisisCenter.webp",
+            "mmbrlevel": "Non-Profit",
+            "details": "The mission of the Family Crisis Center is to promote safety, self sufficiency, hope and healing to those affected by abuse."
+        }
+    ]
+}
