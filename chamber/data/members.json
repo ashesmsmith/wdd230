@@ -5,7 +5,7 @@
             "address": "535 S Yellowstone Hwy, Rexburg, ID 83440",
             "phone": "(208) 356-3636",
             "url": "https://www.woodysmithford.com/",
-            "image": "images/WoodySmithFord.webp",
+            "image": "images/woodysmithford.webp",
             "imgwidth": "300",
             "imgheight": "100",
             "mmbrlevel": "Gold",
@@ -17,7 +17,7 @@
             "address": "255 N 3rd E, Rexburg, ID 83440",
             "phone": "(208) 356-7585",
             "url": "https://www.tetonmedicalgroup.com/",
-            "image": "images/TetonMedical.webp",
+            "image": "images/tetonmedical.webp",
             "imgwidth": "300",
             "imgheight": "100",
             "mmbrlevel": "Gold",
@@ -29,9 +29,9 @@
             "address": "155 W Main Street #8, Rexburg, ID 83340",
             "phone": "(208) 715-0002",
             "url": "https://www.redrabbitgrill.com/rexburg-home",
-            "image": "images/RedRabbitGrill.webp",
-            "imgwidth": "250",
-            "imgheight": "250",
+            "image": "images/redrabbitgrill.webp",
+            "imgwidth": "300",
+            "imgheight": "100",
             "mmbrlevel": "Silver",
             "details": "Open for dine-in, pick up and delivery."
         }
@@ -41,9 +41,9 @@
             "address": "241 S 5th W Unit 601, Rexburg, ID 83440",
             "phone": "(208) 403-5988",
             "url": "https://www.danceitllc.com/",
-            "image": "images/DanceIt.webp",
-            "imgwidth": "250",
-            "imgheight": "250",
+            "image": "images/danceit.webp",
+            "imgwidth": "300",
+            "imgheight": "100",
             "mmbrlevel": "Silver",
             "details": "Over 15 years of experience. Training in all dance forms. Expert instructors. Summer and fall dance classes."
         }
@@ -53,9 +53,9 @@
             "address": "26 College Ave, Rexburg, ID 83440",
             "phone": "(208) 516-0540",
             "url": "https://www.rexburgbjj.com/",
-            "image": "images/SomaJiujitsu.webp",
-            "imgwidth": "250",
-            "imgheight": "250",
+            "image": "images/somajiujitsu.webp",
+            "imgwidth": "300",
+            "imgheight": "100",
             "mmbrlevel": "Bronze",
             "details": "Professional Gracie Jiu-Jitsu."
         }
@@ -65,9 +65,9 @@
             "address": "556 Trejo St Unit B, Rexburg, ID 83440",
             "phone": "(208) 206-2552",
             "url": "https://www.collectivecurlsalonandsuites.com/",
-            "image": "images/CollectiveCurl.webp",
-            "imgwidth": "250",
-            "imgheight": "250",
+            "image": "images/collectivecurl.webp",
+            "imgwidth": "300",
+            "imgheight": "100",
             "mmbrlevel": "Bronze",
             "details": "Salon and Suites. Curly Hair Specialist Of Idaho"
         }
@@ -77,7 +77,7 @@
             "address": "16 E Main St, Rexburg, ID 83440",
             "phone": "(208) 356-0065",
             "url": "https://familycrisiscenter.wixsite.com/familycrisiscenter",
-            "image": "images/FamilyCrisisCenter.webp",
+            "image": "images/familycrisiscenter.webp",
             "imgwidth": "300",
             "imgheight": "100",
             "mmbrlevel": "Non-Profit",
