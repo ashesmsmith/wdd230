@@ -348,40 +348,70 @@ form label.sbs {
 #grid-btn, #list-btn {
     background-color: #ECF1FD;
     padding: .5rem 2rem;
+    border-radius: 5px;
 }
 
 .mmbr-info {
     margin: .5rem;
     padding: 1rem;
-    border: 2px solid #0A2463;
+    border: 3px solid #0A2463;
+    border-radius: 20px;
     text-align: center;
+    overflow-wrap: break-word;
 }
 
 .mmbr-info img {
+    max-width: 200px;
+    height: auto;
     padding: .5rem;
-    border: 1px solid #10192E;
+    box-shadow: 0 0 10px #10192E;    
 }
 
-.Gold {
+.mmbr-level {
+    font-weight: bold;
+}
+
+#Gold {
     color: darkgoldenrod;
-    font-weight: bold;
-    margin-top: 0;
 }
 
-.Silver {
+#Silver {
     color: darkslategray;
-    font-weight: bold;
-    margin-top: 0;
 }
 
-.Bronze {
+#Bronze {
     color: saddlebrown;
-    font-weight: bold;
-    margin-top: 0;
 }
 
-.Non-Profit {
+#Non-Profit {
     color: purple;
-    font-weight: bold;
-    margin-top: 0;
+}
+
+    /* VIEW TYPES */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+}
+
+.list img, .list .mmbr-details, .list .mmbr-level {
+    display: none;
+}
+
+.list .mmbr-info {
+    margin: 0;
+    padding: .55rem;
+    border: none;
+    border-radius: 0;
+}
+
+.list p, .list a, .list h2 {
+    display: block;
+    font-family: 'Montserrat';
+    font-size: 1rem;
+    margin: .25rem;
+    text-align: left;
+}
+
+.list .mmbr-info:nth-child(odd) {
+    background-color: #ECF1FD;
 }
