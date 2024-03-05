@@ -14,7 +14,7 @@ const displayMmbrInfo = (members) => {
         mmbr.setAttribute('class', 'mmbr-info');
 
         var mmbrImage = document.createElement('img');
-        mmbrImage.setAttribute('src', member.image);
+        mmbrImage.setAttribute('src', `${member.image}`);
         mmbrImage.setAttribute('alt', `${member.company} logo`);
         mmbrImage.setAttribute('width', '300');
         mmbrImage.setAttribute('height', '100');
