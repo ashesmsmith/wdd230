@@ -1,7 +1,4 @@
-const currentTemp = document.querySelector('#current-temp');
-const weatherIcon = document.querySelector('#weather-icon');
-const weatherDesc = document.querySelector('#weather-desc');
-
+const weather = document.querySelector('#weather');
 const url = 'https://api.openweathermap.org/data/2.5/weather?lat=43.82&lon=-111.79&appid=8591ec27f4328f83ffdc239a5748f25c&units=imperial'
 
 async function apiFetch() {
@@ -25,10 +22,22 @@ async function apiFetch() {
 }
 
 function displayResults(data) {
-    currentTemp.textContent = `${data.main.temp.toFixed(0)}°`;
-    weatherDesc.textContent = `${data.weather[0].description}`;
+    var weatherIcon = document.createElement('img');
+    weatherIcon.setAttribute('id', 'weather-icon');
     weatherIcon.setAttribute('src', `https://openweathermap.org/img/wn/${data.weather[0].icon}.png`);
     weatherIcon.setAttribute('alt', `${data.weather[0].description} image`);
+
+    var currentTemp = document.createElement('p');
+    currentTemp.setAttribute('id', 'current-temp');
+    currentTemp.textContent = `${data.main.temp.toFixed(0)}°`;
+
+    var weatherDesc = document.createElement('p');
+    weatherDesc.setAttribute('id', 'weather-desc');
+    weatherDesc.textContent = `${data.weather[0].description}`;
+
+    weather.appendChild(weatherIcon);
+    weather.appendChild(currentTemp);
+    weather.appendChild(weatherDesc);
 }
 
 apiFetch();
