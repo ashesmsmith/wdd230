@@ -140,6 +140,34 @@ main a:hover {
     font-weight: bold;
 }
 
+#weather {
+    border: 2px solid #BD0F69;
+    box-shadow: 0 0 10px #BD0F69;
+    margin: 1rem;
+    line-height: .25rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#weather-desc {
+    text-transform: capitalize;
+    padding: .5rem;
+}
+
+#page-visits {
+    margin: .25rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#visits {
+    padding: .5rem;
+}
+
 /* iframe Google Map*/
 .iframe {
     display: flex;

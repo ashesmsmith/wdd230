@@ -33,4 +33,8 @@
         text-align: center;
         border: 1px solid black;
     }
+
+    #weather {
+        flex-direction: column;
+    }
 }
