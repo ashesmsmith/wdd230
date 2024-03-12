@@ -90,10 +90,38 @@
         </section>
 
         <section class="weather">
+            <!-- Data filled with weather.js--> 
             <h2>Weather</h2>
-            <p>Current Temp: <span id="current-temp">40</span>°</p>
-            <p>Wind Speed: <span id="wind-speed">5</span>mph</p>
-            <p>Wind Chill: <span id="wind-chill"></span></p>
+
+            <div class="weather-today">
+                <div class="weather-icon"></div>
+                <p><span class="current-temp"></span>°F</p>
+                <p class="weather-desc capitalize-words"></p>
+                <p class="weather-long">Wind Speed: <span class="wind-speed"></span> mph</p>
+                <p class="weather-long">Wind Chill: <span class="wind-chill"></span></p>
+            </div>
+
+            <h2 class="h2-forecast">3-Day Forecast</h2>
+
+            <div class="weather-forecast">
+                <div class="weather-forecast-1 forecast">
+                    <div class="forecast-icon-1"></div>
+                    <p><span class="forecast-temp-1"></span>°F</p>
+                    <p class="forecast-desc-1 capitalize-words"></p>
+                </div>
+    
+                <div class="weather-forecast-2 forecast">
+                    <div class="forecast-icon-2"></div>
+                    <p><span class="forecast-temp-2"></span>°F</p>
+                    <p class="forecast-desc-2 capitalize-words"></p>
+                </div>
+    
+                <div class="weather-forecast-3 forecast">
+                    <div class="forecast-icon-3"></div>
+                    <p><span class="forecast-temp-3"></span>°F</p>
+                    <p class="forecast-desc-3 capitalize-words"></p>
+                </div>
+            </div>            
         </section>
 
         <section class="spotlights">
@@ -127,8 +155,9 @@
     </footer>
 
     <script src="scripts/darkmode.js"></script>
-    <script src="scripts/hamburger.js"></script>
     <script src="scripts/getdate.js"></script>
-    <script src="scripts/windchill.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/weather.js"></script>
+    <!-- <script src="scripts/windchill.js"></script> -->
 </body>
 </html>

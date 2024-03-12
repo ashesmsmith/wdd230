@@ -42,10 +42,37 @@
         grid-column: 2/4;
         grid-row: 3/4;
         margin: .5rem;
-        display: flex;
-        justify-content: space-around;
+        padding: .25rem;
+        border: none;
+        box-shadow: 0 0 10px #6A93F0;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: .25rem;
     }
-    
+
+    .weather p {
+        margin: 0;
+        padding: 0;
+    }
+
+    .weather-today{
+        grid-column: 1/2;
+        margin: 0;
+    }
+
+    .h2-forecast {
+        grid-column: 2/5;
+        grid-row: 1/2;
+    }
+
+    .weather-forecast {
+        grid-column: 2/5;
+        grid-row: 2/3;
+        margin: 0;
+        padding: 0;
+        border: 1px solid #10192E;
+    }
+
     .spotlights {
         grid-column: 2/4;
         grid-row: 4/5;

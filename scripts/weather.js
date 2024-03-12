@@ -22,16 +22,16 @@ async function apiFetch() {
 }
 
 function displayResults(data) {
-    var weatherIcon = document.createElement('img');
+    let weatherIcon = document.createElement('img');
     weatherIcon.setAttribute('id', 'weather-icon');
     weatherIcon.setAttribute('src', `https://openweathermap.org/img/wn/${data.weather[0].icon}.png`);
     weatherIcon.setAttribute('alt', `${data.weather[0].description} image`);
 
-    var currentTemp = document.createElement('p');
+    let currentTemp = document.createElement('p');
     currentTemp.setAttribute('id', 'current-temp');
     currentTemp.textContent = `${data.main.temp.toFixed(0)}°`;
 
-    var weatherDesc = document.createElement('p');
+    let weatherDesc = document.createElement('p');
     weatherDesc.setAttribute('id', 'weather-desc');
     weatherDesc.textContent = `${data.weather[0].description}`;
 

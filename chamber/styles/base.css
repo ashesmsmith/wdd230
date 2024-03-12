@@ -10,6 +10,10 @@ h1, h2, h3 {
     margin: 0;
 }
 
+.capitalize-words {
+    text-transform: capitalize;
+}
+
 /* Header */
 header {
     background-color: #0A2463;
@@ -164,6 +168,7 @@ footer img {
 .hero img {
     width: 100%;
     height: auto;
+    opacity: 75%;
 }
 
         /* Sections */
@@ -194,11 +199,46 @@ footer img {
     border: #0A2463 solid 1px;
 }
 
+.events h2, .spotlights h2 {
+    margin-bottom: 1rem;
+}
+
 .weather {
     background-color: #6A93F0;
     margin: .5rem;
     padding: 1rem;
     border: #0A2463 solid 1px;
+}
+
+.weather h2 {
+    text-align: left;
+    border-bottom: 1px solid #10192E;
+}
+
+.weather-today {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 1rem;
+    text-align: center;
+}
+
+.weather-icon {
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+
+.weather-long {
+    grid-column: span 2;
+}
+
+.weather-forecast {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+}
+
+.forecast {
+    margin: 1rem;
 }
 
 /* DISCOVER PAGE - MAIN */
