@@ -362,6 +362,94 @@ footer img {
     font-size: 1.5rem;
 }
 
+/* DIRECTORY PAGE - MAIN */
+.directory-page {
+    display: block;
+    margin: 1.5rem;
+}
+
+.view-btns {
+    margin-top: .5rem;
+    padding: .5rem;
+    text-align: center;
+}
+
+#grid-btn, #list-btn {
+    background-color: #ECF1FD;
+    padding: .5rem 2rem;
+    border-radius: 5px;
+}
+
+#directory-sections {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+.mmbr-info {
+    margin: .5rem;
+    padding: 1rem;
+    border: 3px solid #0A2463;
+    border-radius: 20px;
+    text-align: center;
+    overflow-wrap: break-word;
+}
+
+.mmbr-info img {
+    max-width: 200px;
+    height: auto;
+    padding: .5rem;
+    box-shadow: 0 0 10px #10192E;    
+}
+
+.mmbr-level {
+    font-weight: bold;
+}
+
+#Gold {
+    color: #8f6600;
+}
+
+#Silver {
+    color: darkslategray;
+}
+
+#Bronze {
+    color: saddlebrown;
+}
+
+#Non-Profit {
+    color: purple;
+}
+
+    /* VIEW TYPES */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+}
+
+.list img, .list .mmbr-details, .list .mmbr-level {
+    display: none;
+}
+
+.list .mmbr-info {
+    margin: 0;
+    padding: .55rem;
+    border: none;
+    border-radius: 0;
+}
+
+.list p, .list a, .list h2 {
+    display: block;
+    font-family: 'Montserrat';
+    font-size: 1rem;
+    margin: .25rem;
+    text-align: left;
+}
+
+.list .mmbr-info:nth-child(odd) {
+    background-color: #ECF1FD;
+}
+
 /* JOIN PAGE - MAIN */
 .join-page {
    display: block;
@@ -430,91 +518,4 @@ form label.sbs {
     padding: 2rem;
     border: 2px solid #10192E;
     border-radius: 20px;
-}
-
-/* DIRECTORY PAGE - MAIN */
-.directory-page {
-    display: block;
-}
-
-.view-btns {
-    margin-top: .5rem;
-    padding: .5rem;
-    text-align: center;
-}
-
-#grid-btn, #list-btn {
-    background-color: #ECF1FD;
-    padding: .5rem 2rem;
-    border-radius: 5px;
-}
-
-.mmbr-info {
-    margin: .5rem;
-    padding: 1rem;
-    border: 3px solid #0A2463;
-    border-radius: 20px;
-    text-align: center;
-    overflow-wrap: break-word;
-}
-
-.mmbr-info img {
-    max-width: 200px;
-    height: auto;
-    padding: .5rem;
-    box-shadow: 0 0 10px #10192E;    
-}
-
-.mmbr-level {
-    font-weight: bold;
-}
-
-#Gold {
-    color: #8f6600;
-}
-
-#Silver {
-    color: darkslategray;
-}
-
-#Bronze {
-    color: saddlebrown;
-}
-
-#Non-Profit {
-    color: purple;
-}
-
-    /* VIEW TYPES */
-.grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
-}
-
-#directory-sections {
-    max-width: 1250px;
-    margin: 0 auto;
-}
-
-.list img, .list .mmbr-details, .list .mmbr-level {
-    display: none;
-}
-
-.list .mmbr-info {
-    margin: 0;
-    padding: .55rem;
-    border: none;
-    border-radius: 0;
-}
-
-.list p, .list a, .list h2 {
-    display: block;
-    font-family: 'Montserrat';
-    font-size: 1rem;
-    margin: .25rem;
-    text-align: left;
-}
-
-.list .mmbr-info:nth-child(odd) {
-    background-color: #ECF1FD;
 }
