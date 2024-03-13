@@ -106,16 +106,15 @@
     }
 
     .container {
-        background-color: #10192E;
-        padding: 1rem;
-        justify-content: center;
-        align-items: center;
+        position: relative;
+        margin: 0 auto;
     }
 
     .images img {
-        width: 100%;
+        max-width: 100%;
         height: auto;
-        border: 3px solid #6A93F0;
+        object-fit: contain;
+        box-shadow: 0 0 15px #6A93F0;
     }
 
     .one {
@@ -146,6 +145,12 @@
     .six {
         grid-column: 2/4;
         grid-row: 6/7;
+    }
+
+    .image-label {
+        position: absolute;
+        bottom: 1rem;
+        left: .5rem;
     }
 
     /* JOIN PAGE - MAIN */
