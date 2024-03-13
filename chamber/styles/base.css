@@ -2,6 +2,7 @@
 body {
     font-family: 'Montserrat';
     margin: 0;
+    padding: 0;
 }
 
 h1, h2, h3 {
@@ -222,11 +223,31 @@ footer img {
     background-color: #ECF1FD;
     margin: .5rem;
     padding: 1rem;
-    border: #0A2463 solid 1px;
+    border: 1px solid #0A2463;
 }
 
 .events h2, .spotlights h2 {
+    font-size: 2rem;
     margin-bottom: 1rem;
+}
+
+.event-container, .spotlight-container{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #0A2463;
+}
+
+.spotlight-container {
+    text-align: center;
+}
+
+.spotlight-container img {
+    margin: .5rem;
+    box-shadow: 0 0 10px #10192E;
+}
+
+.spotlight-container h3 {
+    font-size: 1.5rem;
 }
 
 .weather {
@@ -459,6 +480,11 @@ form label.sbs {
 .grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+}
+
+#directory-sections {
+    max-width: 1250px;
+    margin: 0 auto;
 }
 
 .list img, .list .mmbr-details, .list .mmbr-level {
