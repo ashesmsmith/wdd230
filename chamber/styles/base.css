@@ -14,6 +14,32 @@ h1, h2, h3 {
     text-transform: capitalize;
 }
 
+/* Banner */
+.banner {
+    display: flex;
+    background-color: #ECF1FD;
+    color: #10192E;
+    letter-spacing: normal;
+    padding: 1rem;
+}
+
+.banner-text {
+    font-size: 1.2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: .25rem;
+    text-align: center;
+}
+
+.banner-btn {
+    background-color: #ECF1FD;
+    color: #10192E;
+    border: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
 /* Header */
 header {
     background-color: #0A2463;
@@ -34,7 +60,7 @@ header img {
     height: auto;
 }
 
-/* Dark Mode */
+    /* Dark Mode */
     /* The switch - the box around the slider */
 .switch {
     position: absolute;
@@ -229,16 +255,18 @@ footer img {
 
 .weather-long {
     grid-column: span 2;
+    margin: .25rem;
 }
 
 .weather-forecast {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     text-align: center;
+    margin: .25rem;
 }
 
 .forecast {
-    margin: 1rem;
+    margin: .25rem;
 }
 
 /* DISCOVER PAGE - MAIN */
