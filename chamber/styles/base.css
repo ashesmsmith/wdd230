@@ -231,23 +231,10 @@ footer img {
     margin-bottom: 1rem;
 }
 
-.event-container, .spotlight-container{
+.event-container {
     margin-top: 2rem;
     margin-bottom: 2rem;
     border-bottom: 1px solid #0A2463;
-}
-
-.spotlight-container {
-    text-align: center;
-}
-
-.spotlight-container img {
-    margin: .5rem;
-    box-shadow: 0 0 10px #10192E;
-}
-
-.spotlight-container h3 {
-    font-size: 1.5rem;
 }
 
 .weather {

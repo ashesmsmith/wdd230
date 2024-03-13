@@ -50,6 +50,10 @@
         grid-gap: .25rem;
     }
 
+    .weather h2 {
+        border-top: none;
+    }
+
     .weather p {
         margin: 0;
         padding: 0;

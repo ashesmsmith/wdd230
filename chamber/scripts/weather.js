@@ -4,7 +4,6 @@ const weatherToday = document.querySelector('.weather-today');
 async function getWeatherAPI() {
     const response = await fetch(url);
     const data = await response.json();
-    console.log(data);
 
     displayWeather(data);
 }
