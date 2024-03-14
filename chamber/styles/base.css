@@ -237,8 +237,13 @@ footer img {
     border-bottom: 1px solid #0A2463;
 }
 
+.event-container h3 {
+    font-size: 1.3rem;
+    text-align: left;
+}
+
 .spotlights section {
-    padding: .5rem;
+    padding: 1rem;
     text-align: center;
     border-bottom: 1px solid #0A2463;
 }
@@ -246,6 +251,10 @@ footer img {
 .spotlights img {
     margin: .5rem;
     box-shadow: 0 0 10px #10192E;
+}
+
+.spotlights h3 {
+    font-size: 1.3rem;
 }
 
 .weather {
