@@ -119,7 +119,7 @@ input:checked + .slider:before {
    
 /* Navigation */
 nav {
-    background-color: #6A93F0;
+    background-color: #8cadfb;
 }
 
 nav a {
@@ -132,12 +132,12 @@ nav a {
 
 nav a:hover {
     background-color: #10192E;
-    color: #6A93F0;
+    color: #8cadfb;
 }
 
     /* Hamburger Menu */
 #menu {
-    background-color: #6A93F0;
+    background-color: #8cadfb;
     color: #10192E;
     text-align: center;
     border: none;
@@ -237,8 +237,19 @@ footer img {
     border-bottom: 1px solid #0A2463;
 }
 
+.spotlights section {
+    padding: .5rem;
+    text-align: center;
+    border-bottom: 1px solid #0A2463;
+}
+
+.spotlights img {
+    margin: .5rem;
+    box-shadow: 0 0 10px #10192E;
+}
+
 .weather {
-    background-color: #6A93F0;
+    background-color: #8cadfb;
     margin: .5rem;
     padding: 1rem;
     border: 1px solid #0A2463;
@@ -338,7 +349,7 @@ footer img {
 }
 
 .date-message {
-    background: radial-gradient(white, white, #6A93F0, #0A2463);
+    background: radial-gradient(white, white, #8cadfb, #0A2463);
     padding: .5rem;
     font-weight: 600;
     text-align: center;
@@ -444,8 +455,8 @@ footer img {
 
 form fieldset {
     margin: 1rem;
-    border: 2px solid #6A93F0;
-    border-bottom: 5px solid #6A93F0;
+    border: 2px solid #8cadfb;
+    border-bottom: 5px solid #8cadfb;
     border-radius: 15px 5px 15px 5px;
 }
 
@@ -486,7 +497,7 @@ form label.sbs {
 
 .join-now {
     display: block;
-    background-color: #6A93F0;
+    background-color: #8cadfb;
     color: #10192E;
     font-size: 1.5rem;
     width: 90%;
