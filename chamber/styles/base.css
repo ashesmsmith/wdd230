@@ -121,7 +121,7 @@ input:checked + .slider:before {
    
 /* Navigation */
 nav {
-    background-color: #8cadfb;
+    background-color: #8CADFB;
 }
 
 nav a {
@@ -134,12 +134,12 @@ nav a {
 
 nav a:hover {
     background-color: #10192E;
-    color: #8cadfb;
+    color: #8CADFB;
 }
 
     /* Hamburger Menu */
 #menu {
-    background-color: #8cadfb;
+    background-color: #8CADFB;
     color: #10192E;
     min-width: 44px;
     min-height: 44px;
@@ -264,7 +264,7 @@ footer img {
 }
 
 .weather {
-    background-color: #8cadfb;
+    background-color: #8CADFB;
     margin: .5rem;
     padding: 1rem;
     border: 1px solid #0A2463;
@@ -364,7 +364,7 @@ footer img {
 }
 
 .date-message {
-    background: radial-gradient(white, white, #8cadfb, #0A2463);
+    background: radial-gradient(white, white, #8CADFB, #0A2463);
     padding: .5rem;
     font-weight: 600;
     text-align: center;
@@ -470,8 +470,8 @@ footer img {
 
 form fieldset {
     margin: 1rem;
-    border: 2px solid #8cadfb;
-    border-bottom: 5px solid #8cadfb;
+    border: 2px solid #8CADFB;
+    border-bottom: 5px solid #8CADFB;
     border-radius: 15px 5px 15px 5px;
 }
 
@@ -512,7 +512,7 @@ form label.sbs {
 
 .join-now {
     display: block;
-    background-color: #8cadfb;
+    background-color: #8CADFB;
     color: #10192E;
     font-size: 1.5rem;
     width: 90%;

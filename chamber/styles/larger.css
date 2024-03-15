@@ -64,7 +64,7 @@
         margin: .5rem;
         padding: .25rem;
         border: none;
-        box-shadow: 0 0 10px #8cadfb;
+        box-shadow: 0 0 10px #8CADFB;
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         grid-gap: .25rem;
@@ -123,7 +123,7 @@
         max-width: 100%;
         height: auto;
         object-fit: contain;
-        box-shadow: 0 0 15px #8cadfb;
+        box-shadow: 0 0 15px #8CADFB;
     }
 
     .one {
