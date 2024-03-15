@@ -486,15 +486,9 @@ form label.top input{
     display: block;
     width: 80%;
     margin-bottom: 1rem;
-    padding: 1rem;
+    padding: .5rem;
     border: 2px solid #0A2463;
     border-radius: 5px;
-}
-
-form label.sbs {
-    font-weight: bold;
-    font-size: 1.2rem;
-    padding: 1rem;
 }
 
 #bizorg-desc {
@@ -506,15 +500,30 @@ form label.sbs {
     border-radius: 5px;
 }
 
-.mmbr-Desc {
-    margin: .3rem auto 1rem 2.4rem;
+.sbs {
+    display: block;
+    margin: 1rem;
+}
+
+.benefit {
+    margin: 1rem;
+    border-bottom: 1px solid #10192E;
+}
+
+.benefit h3{
+    text-align: left;
+    padding: 0;
+}
+
+.mmbrship-option {
+    font-size: 1.2rem;
 }
 
 .join-now {
     display: block;
     background-color: #8CADFB;
     color: #10192E;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     width: 90%;
     max-width: 20rem;
     margin: 0 auto 1rem 1rem;
