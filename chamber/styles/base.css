@@ -57,6 +57,7 @@ header {
 }
 
 header img {
+    min-width: 44px;
     width: 7rem;
     height: auto;
 }
@@ -70,6 +71,7 @@ header img {
     display: inline-block;
     width: 2rem;
     height: 1rem;
+    border: 1px solid #ECF1FD;
 }
 
     /* Hide default HTML checkbox */
@@ -139,6 +141,8 @@ nav a:hover {
 #menu {
     background-color: #8cadfb;
     color: #10192E;
+    min-width: 44px;
+    min-height: 44px;
     text-align: center;
     border: none;
     position: absolute;
@@ -178,6 +182,7 @@ footer {
 }
 
 footer img {
+    min-width: 44px;
     width: 25%;
     height: auto;
 }
@@ -212,8 +217,9 @@ footer img {
     background-color: #0A2463;
     color: #ECF1FD;
     font-size: 1rem;
-    padding: 1rem;
+    min-width: 44px;
     margin: auto;
+    padding: 1rem;
     text-align: center;
     text-decoration: none;
     border-radius: 5px;
