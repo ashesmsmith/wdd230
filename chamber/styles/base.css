@@ -478,6 +478,7 @@ form fieldset {
 form legend {
     font-family: 'Instrument Serif';
     font-size: 1.5rem;
+    font-weight: bold;
     margin: .5rem;
 }
 
