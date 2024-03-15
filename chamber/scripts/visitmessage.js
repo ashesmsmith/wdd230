@@ -24,7 +24,6 @@ else if (formatLastVisit === formatDateToday) {
 
 else {
     let daysDifference = (msDateToday - msLastVisit) / msToDays;
-    console.log(`Days Diff: ${daysDifference}`);
 
     if (daysDifference.toFixed(0) <= 1) {
         messageDisplay.textContent = `You last visited 1 day ago.`;
