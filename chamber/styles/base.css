@@ -301,7 +301,9 @@ footer img {
 }
 
 .forecast {
-    margin: .25rem;
+    margin: .5rem;
+    padding: 1rem;
+    box-shadow: 0 0 10px #10192E;
 }
 
 /* DISCOVER PAGE - MAIN */
