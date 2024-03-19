@@ -37,7 +37,7 @@ function displaySpotlights (data) {
     let spotDescOne = document.createElement('p');
     spotDescOne.innerHTML = data.members[randomOne].details;
     let spotPhoneOne = document.createElement('p');
-    spotPhoneOne.innerHTML = data.members[randomOne].phone;
+    spotPhoneOne.innerHTML = `Phone: ${data.members[randomOne].phone}`;
     let spotURLOne = document.createElement('a');
     spotURLOne.setAttribute('href', data.members[randomOne].url);
     spotURLOne.innerHTML = data.members[randomOne].url;
@@ -61,7 +61,7 @@ function displaySpotlights (data) {
     spotDescTwo.innerHTML = data.members[randomTwo].details;
     spotNameTwo.innerHTML = data.members[randomTwo].company;
     let spotPhoneTwo = document.createElement('p');
-    spotPhoneTwo.innerHTML = data.members[randomTwo].phone;
+    spotPhoneTwo.innerHTML = `Phone: ${data.members[randomTwo].phone}`;
     let spotURLTwo = document.createElement('a');
     spotURLTwo.setAttribute('href', data.members[randomTwo].url);
     spotURLTwo.innerHTML = data.members[randomTwo].url;
