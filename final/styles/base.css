@@ -1,0 +1,241 @@
+/* All Pages */
+* {
+    font-family: 'Truculenta';
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    font-family: 'Junge';
+}
+
+    /* Header */
+header {
+    position: relative;
+    background-color: #55DDE0;
+    color: #2F4858;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    align-items: center;
+}
+
+header img {
+    grid-column: 1/2;
+    max-width: 86%;
+    height: auto;
+    margin: 1rem;
+    border: 3px solid #2F4858;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #F6AE2D;
+}
+
+#company-header{
+    grid-column: 2/4;
+    font-size: 8vw;
+    text-align: center;
+    padding: 1rem;
+}
+
+h1 {
+    font-size: 12vw;
+}
+
+    /* Navigation */
+nav {
+    display: none;
+    background-color: #F6AE2D;
+}
+
+nav a {
+    display: block;
+    color: #2F4858;
+    font-size: 2rem;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:hover {
+    background-color: #55DDE0;
+    font-weight: bold;
+}
+
+        /* Navigation - Hamburger Menu */
+#ham-btn {
+    background-color: #F6AE2D;
+    color: #2F4858;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    font-size: 2rem;
+    font-weight: bold;
+    border: none;
+    box-shadow: 0 25px 20px -20px #55DDE0 inset;
+}
+
+#ham-btn::before {
+    content: '≡';
+}
+
+#ham-btn.show::before {
+    content: '⨉';
+}
+
+.show {
+    display: block;
+    text-align: center;
+}
+
+    /* Footer */
+footer {
+    background-color: #2F4858;
+    color: #55DDE0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.company-footer {
+    grid-column: 1/2;
+    font-size: 1.2rem;
+    margin: 1rem;
+}
+
+.company-footer a {
+    display: inline-block;
+    color: white;
+    margin: 1rem;
+}
+
+footer img {
+    grid-column: 2/3;
+    max-width: 75%;
+    height: auto;
+    margin: 1rem;
+    border: 3px solid #F6AE2D;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #55DDE0;
+}
+
+.project-info {
+    grid-column: 1/3;
+    color: #F6AE2D;
+    margin: 1rem;
+}
+
+/* Home Page - Main */
+#banner-home {
+    grid-column: 1/4;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: white;
+    color: #2F4858;
+    font-size: 1.5rem;
+}
+
+#banner-home p {
+    max-width: 1000px;
+    height: auto;
+    text-align: center;
+}
+
+#banner-btn {
+    background-color: #F6AE2D;
+    color: #2F4858;
+    font-weight: bold;
+    margin: .5rem 1rem;
+    padding: .25rem;
+    border: 2px solid #2F4858;
+    cursor: pointer;
+}
+
+#home-main section {
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 1.3rem;
+}
+
+.small-view img{
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto 1rem auto;
+    box-shadow: 10px 10px 10px #2F4858;
+}
+
+.medium-view, .large-view {
+    display: none;
+}
+
+#call-to-action {
+    margin: 2rem 0;
+    border: 2px solid #F6AE2D;
+    border-radius: 10px;
+    box-shadow: 0 0 40px #F6AE2D inset;
+}
+
+#call-to-action p {
+    font-size: 1.7rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+#locations-nav h4, #rental-summary h4 {
+    font-size: 1.6rem;
+    text-align: center;
+    margin: 0 auto 1rem auto;
+    border-top: 2px solid #55DDE0;
+    border-bottom: 2px solid #55DDE0;
+    text-shadow: 1px 1px #55DDE0;
+}
+
+#locations-nav p, #rental-summary p {
+    text-align: center;
+    margin: 1rem;
+}
+
+iframe {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 1rem auto 2rem auto;
+    box-shadow: 10px 10px 10px #2F4858;
+}
+
+#rental-summary ul {
+    text-align: center;
+    list-style: none;
+    line-height: 1.5rem;
+}
+
+#rental-summary a {
+    color: #F6AE2D;
+    font-weight: bold;
+    text-decoration: none;
+    margin: .2rem;
+}
+
+#weather {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    border: 2px solid #F6AE2D;
+    box-shadow: 10px 10px 10px #F6AE2D;
+}
+
+#current-weather, #forecast {
+    text-align: center;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+#social-media {
+    text-align: center;
+}
+

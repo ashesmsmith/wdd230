@@ -1,0 +1,53 @@
+@media (min-width: 1000px) {
+
+        /* Home Page - Main */
+        #home-main {
+            display: grid;
+            grid-template-columns: 3fr 1fr;
+            grid-gap: 0;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #opening-main {
+            grid: 1/3;
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .small-view {
+            grid-column: 2/3;
+            margin: 0 auto;
+        }
+
+        .medium-view {
+            display: none;
+        }
+
+        .large-view {
+            display: block;
+        }
+
+        .large-view img {
+            max-width: 100%;
+            height: auto;
+            box-shadow: 10px 10px 10px #2F4858;
+        }
+
+        #opening-main h2, #opening-main h3, #opening-main p {
+            grid-column: 1/4;
+        }
+
+        #rental-summary {
+            grid-column: 1/2;
+        }
+
+        #social-media {
+            grid-column: 2/3;
+            grid-row: 4/5;
+        }
+
+
+}
