@@ -1,6 +1,15 @@
 @media (min-width: 1000px) {
 
-    /* ALL PAGES */
+    /* Header */
+    header img {
+        max-width: 15vw;
+    }
+
+    h1 {
+        font-size: 5vw;
+        word-spacing: .5rem;
+    }
+
     /* Navigation */
     .navigation {
         display: flex;
@@ -34,6 +43,7 @@
     .events {
         grid-column: 1/2;
         grid-row: 1/5;
+        display: block;
         margin: 0;
         border: none;
     }
@@ -94,6 +104,9 @@
         grid-row: 2/3;
         margin: 0;
         padding: 0;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
     }
 
     /* DISCOVER PAGE - MAIN */

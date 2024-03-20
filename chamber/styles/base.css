@@ -7,12 +7,13 @@ body {
 
 h1, h2, h3 {
     font-family: 'Instrument Serif';
-    text-align: center;
     margin: 0;
+    letter-spacing: .25rem;
 }
 
 h1 {
-    font-size: 8vw;
+    font-size: 6vw;
+    margin-left: .5rem ;
 }
 
 .capitalize-words {
@@ -49,7 +50,6 @@ h1 {
 header {
     background-color: #0A2463;
     color: #ECF1FD;
-    letter-spacing: .5rem;
     position: relative;
 }
 
@@ -64,6 +64,74 @@ header img {
     min-width: 44px;
     width: 20vw;
     height: auto;
+}
+   
+/* Navigation */
+nav {
+    background-color: #8CADFB;
+}
+
+nav a {
+    display: block;
+    color: #10192E;
+    padding: .5rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #10192E;
+    color: #8CADFB;
+}
+
+    /* Hamburger Menu */
+#menu {
+    background-color: #8CADFB;
+    color: #10192E;
+    min-width: 44px;
+    min-height: 44px;
+    text-align: center;
+    border: none;
+    position: absolute;
+    top: 2rem;
+    right: 1rem;
+}
+
+#menu::before {
+    content: '≡';
+}
+
+.navigation {
+    display: none;
+}
+
+#menu.open::before {
+    content: '⨉';
+}
+
+.open{
+    display: block;
+}
+
+/* Footer */
+footer {
+    background-color: #10192E;
+    color: #ECF1FD;
+    padding: 1rem;
+    text-align: center;
+    line-height: 1rem;
+}
+
+footer img {
+    min-width: 44px;
+    width: 25%;
+    height: auto;
+}
+
+/* HOME PAGE - MAIN */
+main {
+    display: grid;
+    grid-template-columns: 1fr;
 }
 
     /* Dark Mode */
@@ -122,76 +190,7 @@ input:checked + .slider:before {
     -ms-transform: translateX(16px);
     transform: translateX(16px);
 }
-   
-/* Navigation */
-nav {
-    background-color: #8CADFB;
-}
 
-nav a {
-    display: block;
-    color: #10192E;
-    padding: .5rem;
-    text-align: center;
-    text-decoration: none;
-}
-
-nav a:hover {
-    background-color: #10192E;
-    color: #8CADFB;
-}
-
-    /* Hamburger Menu */
-#menu {
-    background-color: #8CADFB;
-    color: #10192E;
-    min-width: 44px;
-    min-height: 44px;
-    text-align: center;
-    border: none;
-    position: absolute;
-    top: 2rem;
-    right: 1rem;
-}
-
-#menu::before {
-    content: '≡';
-}
-
-.navigation {
-    display: none;
-}
-
-#menu.open::before {
-    content: '⨉';
-}
-
-.open{
-    display: block;
-}
-
-/* Main */
-main {
-    display: grid;
-    grid-template-columns: 1fr;
-}
-
-/* Footer */
-footer {
-    background-color: #10192E;
-    color: #ECF1FD;
-    padding: 1rem;
-    text-align: center;
-    line-height: 1rem;
-}
-
-footer img {
-    min-width: 44px;
-    width: 25%;
-    height: auto;
-}
-
-/* HOME PAGE - MAIN */
         /* Hero Image*/
 .hero {
     grid-column: 1/2;
@@ -238,12 +237,14 @@ footer img {
 
 .events h2, .spotlights h2 {
     font-size: 2rem;
-    margin-bottom: 1rem;
+    text-align: center;
+    margin: .5rem;
+    border-top: 1px solid #10192E;
+    border-bottom: 1px solid #10192E;
 }
 
 .event-container {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin: 1.5rem auto;
     border-bottom: 1px solid #0A2463;
 }
 
@@ -282,14 +283,14 @@ footer img {
 
 .weather-today {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 1fr;
     margin: .5rem;
+    text-align: center;
 }
 
 .weather-icon {
     grid-column: 1/2;
     grid-row: 1/5;
-    align-self: center;
 }
 
 .weather p {
@@ -317,6 +318,7 @@ footer img {
 
 .discover-page h2 {
     font-size: 2.5rem;
+    text-align: center;
     padding: 1.5rem;
 }
 
@@ -328,6 +330,7 @@ footer img {
 
 .sidebar-content h3 {
     font-size: 1.5rem;
+    text-align: center;
 }
 
 .small-text {
@@ -349,9 +352,10 @@ footer img {
   }
 
 .images img {
-    width: 100%;
+    width: 96%;
     height: auto;
     object-fit: contain;
+    margin: 0 .5rem;
     border: 1px solid #0A2463;
     box-shadow: 0 0 10px #0A2463;
 }
@@ -461,6 +465,7 @@ footer img {
     display: block;
     font-family: 'Montserrat';
     font-size: 1rem;
+    letter-spacing: 0;
     margin: .25rem;
     text-align: left;
 }
@@ -485,6 +490,7 @@ form legend {
     font-family: 'Instrument Serif';
     font-size: 1.5rem;
     font-weight: bold;
+    letter-spacing: .15rem;
     margin: .5rem;
 }
 
