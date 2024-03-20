@@ -33,6 +33,10 @@
     }
 
     /* HOME PAGE - MAIN */
+    .switch {
+        right: 1rem;
+    }
+    
     main {
         display: grid;
         grid-template-columns: 1fr 1fr;

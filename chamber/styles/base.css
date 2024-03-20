@@ -7,8 +7,8 @@ body {
 
 h1, h2, h3 {
     font-family: 'Instrument Serif';
-    margin: 0;
     letter-spacing: .25rem;
+    margin: 0;
 }
 
 h1 {
@@ -50,6 +50,7 @@ h1 {
 header {
     background-color: #0A2463;
     color: #ECF1FD;
+    width: 100%;
     position: relative;
 }
 
@@ -57,7 +58,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 2rem;
+    padding: 2.5rem;
 }
 
 header img {
@@ -93,7 +94,7 @@ nav a:hover {
     text-align: center;
     border: none;
     position: absolute;
-    top: 2rem;
+    top: .5rem;
     right: 1rem;
 }
 
@@ -129,17 +130,12 @@ footer img {
 }
 
 /* HOME PAGE - MAIN */
-main {
-    display: grid;
-    grid-template-columns: 1fr;
-}
-
     /* Dark Mode */
     /* The switch - the box around the slider */
 .switch {
     position: absolute;
     top: .5rem;
-    right: 1rem;
+    right: 4rem;
     display: inline-block;
     width: 2rem;
     height: 1rem;
@@ -193,11 +189,13 @@ input:checked + .slider:before {
 
         /* Hero Image*/
 .hero {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+picture, .hero img, .cta {
     grid-column: 1/2;
     grid-row: 1/2;
-    position: relative;
-    max-width: 100%;
-    height: auto;
 }
 
 .hero img {
@@ -205,22 +203,23 @@ input:checked + .slider:before {
     height: auto;
     opacity: 85%;
 }
-
-        /* Sections */
+       
 .cta {
-    grid-column: 1/2;
-    grid-row: 1/2;
-    font-size: 2rem;
-    padding: 1rem;
-    text-align: center; 
-    z-index: 1;  
+   z-index: 1;
 }
 
-.cta-btn {
+.cta h2 {
+    font-size: 5vw;
+    text-align: center;
+    padding: 1rem;
+}
+
+.cta a {
+    display: block;
     background-color: #0A2463;
     color: #ECF1FD;
-    font-size: 1rem;
     min-width: 44px;
+    max-width: 30%;
     margin: auto;
     padding: 1rem;
     text-align: center;
@@ -228,6 +227,7 @@ input:checked + .slider:before {
     border-radius: 5px;
 }
 
+    /* Sections */
 .events, .spotlights {
     background-color: #ECF1FD;
     margin: .5rem;
@@ -268,6 +268,10 @@ input:checked + .slider:before {
     font-size: 1.3rem;
 }
 
+.spotlights a {
+    overflow-wrap: break-word;
+}
+
 .weather {
     background-color: #8CADFB;
     margin: .5rem;
@@ -299,10 +303,9 @@ input:checked + .slider:before {
 }
 
 .weather-forecast {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    margin: .5rem;
 }
 
 .forecast {
@@ -388,7 +391,7 @@ input:checked + .slider:before {
 /* DIRECTORY PAGE - MAIN */
 .directory-page {
     display: block;
-    margin: 1.5rem;
+    margin: 1rem;
 }
 
 .view-btns {
