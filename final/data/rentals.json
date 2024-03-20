@@ -1,0 +1,63 @@
+{
+    "rentals" : [
+        {
+            "type" : "Honda Metro Scooter",
+            "description" : "Honda Metropolitan (49cc) - 1 person",
+            "capacity" : "1",
+            "reserve-half" : "20",
+            "reserve-full" : "30",
+            "walk-in-half" : "25",
+            "walk-in-full" : "35"
+        }
+        ,
+        {
+            "type" : "Honda Dio Scooter",
+            "description" : "Honda Dio (110cc) - 2 person",
+            "capacity" : "2",
+            "reserve-half" : "30",
+            "reserve-full" : "40",
+            "walk-in-half" : "35",
+            "walk-in-full" : "45"
+        }
+        ,
+        {
+            "type" : "Honda PCX150 Scooter",
+            "description" : "Honda PCX150 (149cc) - 2 person",
+            "capacity" : "2",
+            "reserve-half" : "40",
+            "reserve-full" : "50",
+            "walk-in-half" : "45",
+            "walk-in-full" : "55"
+        }
+        ,
+        {
+            "type" : "Honda Pioneer ATV",
+            "description" : "Honda Pioneer 1000 - 4 person",
+            "capacity" : "4",
+            "reserve-half" : "50",
+            "reserve-full" : "70",
+            "walk-in-half" : "60",
+            "walk-in-full" : "80"
+        }
+        ,
+        {
+            "type" : "Jeep Wrangler - 2 door",
+            "description" : "Jeep Wrangler - 2 door - open air - manuel - 4 person",
+            "capacity" : "4",
+            "reserve-half" : "60",
+            "reserve-full" : "85",
+            "walk-in-half" : "70",
+            "walk-in-full" : "90"
+        }
+        ,
+        {
+            "type" : "Jeep Wrangler - 4 door",
+            "description" : "Jeep Wrangler - 4 door manuel with A/C - 5 person",
+            "capacity" : "5",
+            "reserve-half" : "70",
+            "reserve-full" : "100",
+            "walk-in-half" : "85",
+            "walk-in-full" : "125"
+        }
+    ]
+}
