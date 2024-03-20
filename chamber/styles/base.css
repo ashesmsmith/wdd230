@@ -11,6 +11,10 @@ h1, h2, h3 {
     margin: 0;
 }
 
+h1 {
+    font-size: 8vw;
+}
+
 .capitalize-words {
     text-transform: capitalize;
 }
@@ -58,7 +62,7 @@ header {
 
 header img {
     min-width: 44px;
-    width: 7rem;
+    width: 20vw;
     height: auto;
 }
 
