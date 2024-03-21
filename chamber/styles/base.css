@@ -230,7 +230,7 @@ picture, .hero img, .cta {
     /* Sections */
 .events, .spotlights {
     background-color: #ECF1FD;
-    margin: .5rem;
+    margin: 2rem 1rem;
     padding: 1rem;
     border: 1px solid #0A2463;
 }
@@ -244,7 +244,7 @@ picture, .hero img, .cta {
 }
 
 .event-container {
-    margin: 1.5rem auto;
+    margin: 2rem 1rem;
     border-bottom: 1px solid #0A2463;
 }
 
@@ -254,6 +254,7 @@ picture, .hero img, .cta {
 }
 
 .spotlights section {
+    margin: 2rem 1rem;
     padding: 1rem;
     text-align: center;
     border-bottom: 1px solid #0A2463;
@@ -274,7 +275,7 @@ picture, .hero img, .cta {
 
 .weather {
     background-color: #8CADFB;
-    margin: .5rem;
+    margin: 2rem 1rem;
     padding: 1rem;
     border: 1px solid #0A2463;
 }
@@ -288,7 +289,7 @@ picture, .hero img, .cta {
 .weather-today {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin: .5rem;
+    margin: 2rem 1rem;
     text-align: center;
 }
 
@@ -306,10 +307,11 @@ picture, .hero img, .cta {
     display: flex;
     flex-direction: column;
     text-align: center;
+    margin: 2rem 1rem;
 }
 
 .forecast {
-    margin: .5rem;
+    margin: 1rem;
     padding: 1rem;
     box-shadow: 0 0 10px #10192E;
 }
