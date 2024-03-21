@@ -5,8 +5,9 @@
     padding: 0;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     font-family: 'Junge';
+    letter-spacing: .25rem;
 }
 
     /* Header */
@@ -240,3 +241,34 @@ iframe {
 }
 
 /* Rentals Page - Main */
+table {
+    display: none;
+}
+
+#small-pricing {
+    margin: 2rem;
+}
+
+#small-pricing h2 {
+    background-color: #2F4858;
+    color: #F6AE2D;
+    font-size: 2rem;
+    text-align: center;
+    padding: 1rem;
+    border: 2px solid #55DDE0;
+}
+
+#small-pricing section {
+    line-height: 1.5rem;
+    margin: 2rem;
+}
+
+#small-pricing section:nth-child(odd) {
+    padding: 1rem;
+    border: 2px solid #55DDE0;
+}
+
+#small-pricing section:nth-child(even) {
+    padding: 1rem;
+    border: 2px solid #F6AE2D;
+}
