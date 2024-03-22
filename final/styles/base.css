@@ -431,3 +431,14 @@ form p {
 }
 
 /* CONTACT US PAGE - MAIN */
+#contact-info, #maps {
+    font-size: 2rem;
+    text-align: center;
+    margin: 5rem auto;
+    line-height: 3rem;
+}
+
+#contact-main form {
+    padding: 2rem;
+    border: 2px solid #F6AE2D;
+}
