@@ -44,22 +44,63 @@
         <a href="contact.html">Contact Us</a>
     </nav>
 
-    <main>
+    <main id="reservations-main">
         <h2>Reservations</h2>
 
-        <h3>Rental Services and Agreements</h3>
-        <ul>
-            <li>A $50 security deposit is required to confirm reservations.</li>
-            <li>A valid drivers license is required in hand at the time of rental.</li>
-            <li>No one under the age of 12 years of age are allowed to ride on the scooters.</li>
-            <li>Fuel charge is not included.</li>
-            <li>Unlimited mileage.</li>
-            <li>Liability insurance is included.</li>
-            <li>Damage insurance is available for purchase.</li>
-            <li>Free delivery to Cozumel hotels or Airbnbs for 2+ day rentals.</li>
-            <li>Payment via Google Pay, Apple Pay, cash, credit card, debit card, or venmo.</li>
-            <li>Rentals may be returned to either physical location.</li>
-        </ul>
+        <div id="agreement">
+            <h3>Rental Services and Agreements</h3>
+            <ul>
+                <li>A $50 security deposit is required to confirm reservations.</li>
+                <li>A valid drivers license is required in hand at the time of rental.</li>
+                <li>No one under the age of 12 years of age are allowed to ride on the scooters.</li>
+                <li>Fuel charge is not included.</li>
+                <li>Unlimited mileage.</li>
+                <li>Liability insurance is included.</li>
+                <li>Damage insurance is available for purchase.</li>
+                <li>Free delivery to Cozumel hotels or Airbnbs for 2+ day rentals.</li>
+                <li>Payment via Google Pay, Apple Pay, cash, credit card, debit card, or venmo.</li>
+                <li>Rentals may be returned to either physical location.</li>
+            </ul>
+        </div>
+
+        <picture>
+            <source srcset="images/jeep-beach-people.webp" media="(max-width: 999px)">
+            <img src="images/jeep-beach.webp" alt="jeep on beach" width="600" height="300">
+        </picture>
+
+        <form method="get" action="thankyou.html">
+            <fieldset>
+                <legend>Reservation Details</legend>
+
+                <label class="top">*Rental Date: <input type="date" name="date" id="rental-date"></label>
+                
+                <p>*Choose one:</p>
+                <label class="sbs"><input type="radio" name="day" value="half">Half Day (3hrs)</label>
+                <label class="sbs"><input type="radio" name="day" value="full">Full Day</label>
+                
+                <p>*Please choose a rental:</p>
+                <label class="sbs"><input type="radio" name="rental" value="metro">Honda Metropolitan (49cc)</label>
+                <label class="sbs"><input type="radio" name="rental" value="dio">Honda Dio (110cc)</label>
+                <label class="sbs"><input type="radio" name="rental" value="pcx150">Honda PCX150 (149cc)</label>
+                <label class="sbs"><input type="radio" name="rental" value="atv">Honda Pioneer 1000 ATV</label>
+                <label class="sbs"><input type="radio" name="rental" value="jeep2">Jeep Wrangler - 2 door</label>
+                <label class="sbs"><input type="radio" name="rental" value="jeep4">Jeep Wrangler - 4 door</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Renter Information</legend>
+
+                <label class="top">*Renter First Name:<input type="text" name="fname" id="fname" required></label>
+                <label class="top">*Renter Last Name:<input type="text" name="lname" id="lname" required></label>
+                <label class="top">*Phone Number:<input type="tel" name="phone" id="phone" required></label>
+                <label class="top">*Email:<input type="email" name="email" id="email" required placeholder="something@email.com"></label>
+                <label class="top">*Home State/Country:<input type="text" name="state" id="state" required></label>
+                <label class="top">Crusie Line (if applicable):<input type="text" name="cruise" id="crusie"></label>
+                <label class="top">Special Accommodations/Comments<textarea name="comments" id="comments"></textarea></label>
+            </fieldset>
+
+            <button type="submit" id="reservation-btn">Resevere Now</button>
+        </form>
     </main>
 
     <footer>
