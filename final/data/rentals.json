@@ -6,7 +6,8 @@
             "reservehalf" : "20",
             "reservefull" : "30",
             "walkinhalf" : "25",
-            "walkinfull" : "35"
+            "walkinfull" : "35",
+            "img" : "images/metropolitan.webp"
         }
         ,
         {
@@ -15,7 +16,8 @@
             "reservehalf" : "30",
             "reservefull" : "40",
             "walkinhalf" : "35",
-            "walkinfull" : "45"
+            "walkinfull" : "45",
+            "img" : "images/dio.webp"
         }
         ,
         {
@@ -24,7 +26,8 @@
             "reservehalf" : "40",
             "reservefull" : "50",
             "walkinhalf" : "45",
-            "walkinfull" : "55"
+            "walkinfull" : "55",
+            "img" : "images/pcx150.webp"
         }
         ,
         {
@@ -33,7 +36,8 @@
             "reservehalf" : "50",
             "reservefull" : "70",
             "walkinhalf" : "60",
-            "walkinfull" : "80"
+            "walkinfull" : "80",
+            "img" : "images/atv.webp"
         }
         ,
         {
@@ -42,7 +46,8 @@
             "reservehalf" : "60",
             "reservefull" : "85",
             "walkinhalf" : "70",
-            "walkinfull" : "90"
+            "walkinfull" : "90",
+            "img" : "images/jeep-2.webp"
         }
         ,
         {
@@ -51,7 +56,8 @@
             "reservehalf" : "70",
             "reservefull" : "100",
             "walkinhalf" : "85",
-            "walkinfull" : "125"
+            "walkinfull" : "125",
+            "img" : "images/jeep-4.webp"
         }
     ]
 }
