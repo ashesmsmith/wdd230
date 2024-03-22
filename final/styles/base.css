@@ -1,4 +1,4 @@
-/* All Pages */
+/* ALL PAGES */
 * {
     font-family: 'Truculenta';
     margin: 0;
@@ -10,7 +10,7 @@ h1, h2, h3, h4 {
     letter-spacing: .25rem;
 }
 
-    /* Header */
+/* HEADER */
 header {
     position: relative;
     background-color: #55DDE0;
@@ -34,16 +34,16 @@ header img {
 
 #company-header{
     grid-column: 2/4;
-    font-size: 8vw;
+    font-size: 6vw;
     text-align: center;
     padding: 1rem;
 }
 
 h1 {
-    font-size: 12vw;
+    font-size: 10vw;
 }
 
-    /* Navigation */
+/* NAVIGATION */
 nav {
     display: none;
     background-color: #F6AE2D;
@@ -62,7 +62,7 @@ nav a:hover {
     font-weight: bold;
 }
 
-        /* Navigation - Hamburger Menu */
+        /* NAVIGATION - HAMBURGER MENU */
 #ham-btn {
     background-color: #F6AE2D;
     color: #2F4858;
@@ -88,35 +88,36 @@ nav a:hover {
     text-align: center;
 }
 
-    /* Footer */
+/* MAIN */
+main {
+    margin: 2rem;
+}
+
+main section {
+    margin: 3rem auto;
+    padding: 1rem;
+}
+
+/* FOOTER */
 footer {
     background-color: #2F4858;
     color: #55DDE0;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 2fr 1fr;
+    padding: 1rem;
     text-align: center;
-    align-items: center;
-    justify-items: center;
 }
 
-.company-footer {
-    grid-column: 1/2;
-    font-size: 1.2rem;
-    margin: 1rem;
-}
-
-.company-footer a {
-    display: inline-block;
+footer a {
     color: white;
-    margin: 1rem;
+}
+
+.company-footer, .project-info {
+    margin: 1rem auto;
 }
 
 footer img {
-    grid-column: 2/3;
-    max-width: 75%;
+    max-width: 50%;
     height: auto;
-    margin: 1rem;
+    margin: 1rem auto;
     border: 3px solid #F6AE2D;
     border-radius: 50%;
     box-shadow: 0 0 10px #55DDE0;
@@ -125,10 +126,10 @@ footer img {
 .project-info {
     grid-column: 1/3;
     color: #F6AE2D;
-    margin: 1rem;
+    margin: 1rem auto;
 }
 
-/* Home Page - Main */
+/* HOME PAGE - MAIN */
 #banner-home {
     grid-column: 1/4;
     align-items: center;
@@ -137,6 +138,7 @@ footer img {
     background-color: white;
     color: #2F4858;
     font-size: 1.5rem;
+    padding: 1rem;
 }
 
 #banner-home p {
@@ -155,48 +157,49 @@ footer img {
     cursor: pointer;
 }
 
-#home-main section {
-    margin: 1rem;
-    padding: 1rem;
-    font-size: 1.3rem;
-}
-
 .small-view img{
     max-width: 100%;
     height: auto;
-    margin: 0 auto 1rem auto;
-    box-shadow: 10px 10px 10px #2F4858;
+    margin: 0 auto;
+    box-shadow: 0 0 15px #2F4858;
 }
 
 .medium-view, .large-view {
     display: none;
 }
 
-#call-to-action {
-    margin: 2rem 0;
-    border: 2px solid #F6AE2D;
-    border-radius: 10px;
-    box-shadow: 0 0 40px #F6AE2D inset;
-}
-
-#call-to-action p {
-    font-size: 1.7rem;
-    font-weight: bold;
-    text-align: center;
-}
-
-#locations-nav h4, #rental-summary h4 {
+#home-main h2 {
     font-size: 1.6rem;
+}
+
+#home-main h4 {
+    font-size: 1.4rem;
+}
+
+#home-main p {
+    font-size: 1.2rem;
     text-align: center;
-    margin: 0 auto 1rem auto;
+    line-height: 2rem; 
+}
+
+#home-main h2, #home-main h4 {
+    text-align: center;
+    margin: 2rem auto;
+    padding: .5rem;
     border-top: 2px solid #55DDE0;
     border-bottom: 2px solid #55DDE0;
-    text-shadow: 1px 1px #55DDE0;
+    box-shadow: 0px -25px 20px -20px #55DDE0, 0px 25px 20px -20px #55DDE0;
 }
 
-#locations-nav p, #rental-summary p {
+#call-to-action {
+    font-weight: bold;
     text-align: center;
-    margin: 1rem;
+    line-height: 2rem;
+    width: 90%;
+    padding: 1rem;
+    border: 2px solid #F6AE2D;
+    border-radius: 10px;
+    box-shadow: 0 0 50px #F6AE2D inset;
 }
 
 iframe {
@@ -204,32 +207,51 @@ iframe {
     max-width: 100%;
     height: auto;
     margin: 1rem auto 2rem auto;
-    box-shadow: 10px 10px 10px #2F4858;
+    box-shadow: 0 0 15px #2F4858;
+}
+
+#locations-nav p:nth-child(4) {
+    margin-top: 5rem;
 }
 
 #rental-summary ul {
+    font-size: 1.2rem;
     text-align: center;
     list-style: none;
-    line-height: 1.5rem;
+    line-height: 2rem;
+}
+
+#rental-summary p {
+    font-size: 1.4rem;
+    margin: 1rem auto;
+    padding: 1rem;
+    text-align: center;
+    border: 2px solid #2F4858;
 }
 
 #rental-summary a {
     color: #F6AE2D;
+    font-family: 'Junge';
+    font-size: 1.2rem;
     font-weight: bold;
     text-decoration: none;
-    margin: .2rem;
 }
 
 #weather {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 1rem;
+    text-align: center;
     border: 2px solid #F6AE2D;
-    box-shadow: 10px 10px 10px #F6AE2D;
+    box-shadow: 0 0 10px #F6AE2D;
 }
 
 #current-weather, #forecast {
-    text-align: center;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+#current-weather h4, #forecast h4 {
+    border-top: 2px solid #F6AE2D;
+    border-bottom: 2px solid #F6AE2D;
+    box-shadow: 0px -25px 20px -20px #F6AE2D, 0px 25px 20px -20px #F6AE2D;
 }
 
 .capitalize {
@@ -240,35 +262,89 @@ iframe {
     text-align: center;
 }
 
-/* Rentals Page - Main */
-table {
-    display: none;
+#social-media h4 {
+    padding: 1rem;
 }
 
-#small-pricing {
-    margin: 2rem;
+#social-media a{
+    padding: .5rem;
 }
 
-#small-pricing h2 {
+/* RENTALS PAGE - MAIN */
+#rentals-main h2 {
     background-color: #2F4858;
     color: #F6AE2D;
     font-size: 2rem;
     text-align: center;
+    margin: 1rem auto;
+    padding: 1rem;
+    max-width: 1000px;
+    box-shadow: 0 0 10px #2F4858;
+}
+
+#rentals-main img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+#rentals-main section {
+    max-width: 400px;
+    margin: 3rem auto;
+}
+
+#rentals-main section:nth-child(odd) {
     padding: 1rem;
     border: 2px solid #55DDE0;
+    box-shadow: 0 0 10px 5px #55DDE0;
 }
 
-#small-pricing section {
-    line-height: 1.5rem;
-    margin: 2rem;
-}
-
-#small-pricing section:nth-child(odd) {
-    padding: 1rem;
-    border: 2px solid #55DDE0;
-}
-
-#small-pricing section:nth-child(even) {
+#rentals-main section:nth-child(even) {
     padding: 1rem;
     border: 2px solid #F6AE2D;
+    box-shadow: 0 0 10px 5px #F6AE2D;
 }
+
+#rentals-main section img {
+    border: 2px solid #2F4858;
+}
+
+#rentals-main h3, #rentals-main p {
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 1rem;
+}
+
+table {
+    display: table;
+    margin: 2rem auto;
+    border-collapse: collapse;
+    border: 1px solid #2F4858;
+}
+
+caption {
+    display: none;
+}
+
+tr, td {
+    text-align: center;
+    border: 1px solid #2F4858;
+}
+
+td {
+    padding: .5rem;
+}
+
+.orange {
+    background-color: #F6AE2D;
+}
+
+.blue {
+    background-color: #55DDE0;
+}
+
+.orange, .blue {
+    font-size: 1.2rem;
+}
+
+/* RESEVERATIONS PAGE - MAIN */
