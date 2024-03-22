@@ -273,11 +273,9 @@ picture, .hero img, .cta {
     overflow-wrap: break-word;
 }
 
-.weather {
-    background-color: #8CADFB;
+.weather {  
     margin: 2rem 1rem;
     padding: 1rem;
-    border: 1px solid #0A2463;
 }
 
 .weather h2 {
@@ -287,10 +285,10 @@ picture, .hero img, .cta {
 }
 
 .weather-today {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
     text-align: center;
+    margin: 1rem;
 }
 
 .weather-icon {

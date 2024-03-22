@@ -59,19 +59,17 @@
     }
 
     .spotlights section {
-        margin: .5rem;
-        border: 1px solid #10192E;
+        margin: 1rem;
+        border: none;
     }
     
     .weather {
         grid-column: 2/4;
         grid-row: 3/4;
-        margin: .5rem;
+        margin: 1rem;
         padding: .25rem;
-        border: none;
-        box-shadow: 0 0 10px #8CADFB;
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: 1fr 3fr;
         grid-gap: .25rem;
     }
 
@@ -86,20 +84,20 @@
 
     .weather-today{
         grid-column: 1/2;
-        margin: 0;
     }
 
     .h2-forecast {
-        grid-column: 2/5;
+        grid-column: 2/3;
         grid-row: 1/2;
     }
 
     .weather-forecast {
-        grid-column: 2/5;
+        grid-column: 2/3;
         grid-row: 2/3;
         margin: 0;
         padding: 0;
-        flex-direction: row;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
         align-items: center;
         justify-content: center;
     }
