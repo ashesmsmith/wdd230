@@ -18,6 +18,7 @@ function displayRentals(data) {
             img.setAttribute('alt', `${rental.type}`);
             img.setAttribute('width', '640');
             img.setAttribute('height', '640');
+            img.setAttribute('loading', 'lazy')
         let type = document.createElement('h3');
             type.innerHTML = rental.type;
         let capacity = document.createElement('p');
