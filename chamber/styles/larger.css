@@ -48,8 +48,6 @@
         grid-row: 4/5;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        background-color: white;
-        margin: 0;
         border: none;
         text-align: center;
     }
@@ -71,10 +69,6 @@
         display: grid;
         grid-template-columns: 1fr 3fr;
         grid-gap: .25rem;
-    }
-
-    .weather h2 {
-        border-top: none;
     }
 
     .weather p {
