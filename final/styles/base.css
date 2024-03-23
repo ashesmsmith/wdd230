@@ -8,37 +8,67 @@
 h1, h2, h3, h4 {
     font-family: 'Junge';
     letter-spacing: .25rem;
-}
-
-h1 {
-    font-size: 10vw;
+    text-align: center;
+    padding: 1rem;
 }
 
 h2 {
-    font-size: 2rem;
-    text-align: center;
-    margin: 2rem auto;
-    padding: .5rem;
+    font-size: 1.6rem;
+    margin: 3rem auto;
     border-top: 2px solid #55DDE0;
     border-bottom: 2px solid #55DDE0;
     box-shadow: 0px -25px 20px -20px #55DDE0, 0px 25px 20px -20px #55DDE0;
 }
 
+h3 {
+    font-size: 1.4rem;
+    margin: 2rem auto;
+    border-top: 2px solid #F6AE2D;
+    border-bottom: 2px solid #F6AE2D;
+    box-shadow: 0px -25px 20px -20px #F6AE2D, 0px 25px 20px -20px #F6AE2D;
+}
+
+p {
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 2rem;
+    padding: .5rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    box-shadow: 0 0 15px #2F4858;
+}
+
+.icons {
+    box-shadow: none;
+}
+
+iframe {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 3rem auto 1rem auto;
+    box-shadow: 0 0 15px #2F4858;
+}
+
 /* HEADER */
 header {
-    position: relative;
     background-color: #55DDE0;
     color: #2F4858;
-    width: 100%;
+    max-width: 100%;
+    height: auto;
+    padding: 1rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 1rem;
     align-items: center;
 }
 
 header img {
     grid-column: 1/2;
-    max-width: 86%;
+    max-width: 60%;
     height: auto;
     margin: 1rem;
     border: 3px solid #2F4858;
@@ -46,11 +76,17 @@ header img {
     box-shadow: 0 0 10px #F6AE2D;
 }
 
-#company-header{
+#company-header {
     grid-column: 2/4;
-    font-size: 6vw;
-    text-align: center;
-    padding: 1rem;
+    line-height: normal;
+}
+
+h1 {
+    font-size: calc(8vw + 1vh);
+}
+
+#company-header p {
+    font-size: calc(5vw + .5vh);
 }
 
 /* NAVIGATION */
@@ -105,7 +141,7 @@ main {
 
 main section {
     margin: 3rem auto;
-    padding: 1rem;
+    padding: 1.5rem;
 }
 
 /* FOOTER */
@@ -148,7 +184,6 @@ footer img {
     display: flex;
     background-color: white;
     color: #2F4858;
-    font-size: 1.5rem;
     padding: 1rem;
 }
 
@@ -168,97 +203,53 @@ footer img {
     cursor: pointer;
 }
 
-.small-view img{
-    max-width: 100%;
-    height: auto;
-    margin: 0 auto;
-    box-shadow: 0 0 15px #2F4858;
-}
-
 .medium-view, .large-view {
     display: none;
 }
 
-#home-main h4 {
-    font-size: 1.4rem;
-}
-
-#home-main p {
-    font-size: 1.2rem;
-    text-align: center;
-    line-height: 2rem; 
-}
-
-#home-main h4 {
-    text-align: center;
-    margin: 2rem auto;
-    padding: .5rem;
-    border-top: 2px solid #55DDE0;
-    border-bottom: 2px solid #55DDE0;
-    box-shadow: 0px -25px 20px -20px #55DDE0, 0px 25px 20px -20px #55DDE0;
-}
-
 #call-to-action {
     font-weight: bold;
-    text-align: center;
-    line-height: 2rem;
-    width: 90%;
-    padding: 1rem;
-    border: 2px solid #F6AE2D;
+    max-width: 90%;
+    border: 2px solid #55DDE0;
     border-radius: 10px;
-    box-shadow: 0 0 50px #F6AE2D inset;
+    box-shadow: 0 0 50px #55DDE0 inset;
 }
 
-iframe {
-    display: block;
-    max-width: 100%;
-    height: auto;
-    margin: 1rem auto 2rem auto;
-    box-shadow: 0 0 15px #2F4858;
-}
-
-#locations-nav p:nth-child(4) {
-    margin-top: 5rem;
+#call-to-action h3 {
+    margin: 0;
+    border: none;
+    box-shadow: none;
 }
 
 #rental-summary ul {
     font-size: 1.2rem;
     text-align: center;
-    list-style: none;
     line-height: 2rem;
+    list-style: none;
 }
 
 #rental-summary p {
-    font-size: 1.4rem;
-    margin: 1rem auto;
-    padding: 1rem;
-    text-align: center;
-    border: 2px solid #2F4858;
+    margin: 2rem auto;
+    border: 2px solid #55DDE0;
+    border-radius: 10px;
+    box-shadow: 0 0 50px #55DDE0 inset;
 }
 
 #rental-summary a {
-    color: #F6AE2D;
+    color: #2F4858;
     font-family: 'Junge';
-    font-size: 1.2rem;
     font-weight: bold;
     text-decoration: none;
 }
 
 #weather {
     text-align: center;
-    border: 2px solid #F6AE2D;
-    box-shadow: 0 0 10px #F6AE2D;
+    border: 2px solid #55DDE0;
+    box-shadow: 0 0 10px #55DDE0;
 }
 
 #current-weather, #forecast {
     margin: 2rem auto;
-    padding: 1rem;
-}
-
-#current-weather h4, #forecast h4 {
-    border-top: 2px solid #F6AE2D;
-    border-bottom: 2px solid #F6AE2D;
-    box-shadow: 0px -25px 20px -20px #F6AE2D, 0px 25px 20px -20px #F6AE2D;
 }
 
 .capitalize {
@@ -269,48 +260,31 @@ iframe {
     text-align: center;
 }
 
-#social-media h4 {
-    padding: 1rem;
-}
-
 #social-media a{
     padding: .5rem;
 }
 
 /* RENTALS PAGE - MAIN */
-#rentals-main img {
-    max-width: 100%;
-    height: auto;
-    margin: 0 auto;
+#rentals-main section {
+    max-width: 350px;
 }
 
-#rentals-main section {
-    max-width: 400px;
-    margin: 3rem auto;
+#rentals-main h3 {
+    margin: 1rem auto;
+    border: none;
+    box-shadow: none;
 }
 
 #rentals-main section:nth-child(even) {
-    padding: 1rem;
     border: 2px solid #55DDE0;
     border-radius: 5px 20px;
     box-shadow: 0 0 10px 5px #55DDE0;
 }
 
 #rentals-main section:nth-child(odd) {
-    padding: 1rem;
     border: 2px solid #F6AE2D;
     border-radius: 20px 5px;
     box-shadow: 0 0 10px 5px #F6AE2D;
-}
-
-#rentals-main section img {
-    border: 2px solid #2F4858;
-}
-
-#rentals-main h3, #rentals-main p {
-    font-size: 1.2rem;
-    text-align: center;
-    margin: 1rem;
 }
 
 table {
@@ -346,9 +320,8 @@ td {
 }
 
 /* RESEVERATIONS PAGE - MAIN */
-#reservations-main {
-    margin: 1rem;
-    justify-content: center;
+#reserverations-main h2 {
+    width: 100%;
 }
 
 #agreement {
@@ -367,6 +340,10 @@ fieldset {
     border: 2px solid #F6AE2D;
     border-top: 5px solid #F6AE2D;
     border-radius: 10px;
+}
+
+fieldset p {
+    text-align: left;
 }
 
 legend {
@@ -440,5 +417,5 @@ form p {
 
 #contact-main form {
     padding: 2rem;
-    border: 2px solid #F6AE2D;
+    border: 2px solid #55DDE0;
 }

@@ -23,6 +23,7 @@ function displayWeather(data) {
     // Todays Weather
     data.list[0].weather.forEach((item) => {
         let weatherIcon = document.createElement('img');
+        weatherIcon.setAttribute('class', 'icons');
         weatherIcon.setAttribute('src', `https://openweathermap.org/img/wn/${item.icon}@2x.png`);
         weatherIcon.setAttribute('alt', `${item.description} icon`);
         weatherIcon.setAttribute('width', '100');
@@ -47,6 +48,7 @@ function displayWeather(data) {
     // Tomorrow Forecast
     data.list[8].weather.forEach((item) => {
         let forecastIcon = document.createElement('img');
+        forecastIcon.setAttribute('class', 'icons');
         forecastIcon.setAttribute('src', `https://openweathermap.org/img/wn/${item.icon}@2x.png`);
         forecastIcon.setAttribute('alt', `${item.description} icon`);
         forecastIcon.setAttribute('width', '100');
