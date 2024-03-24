@@ -60,7 +60,6 @@ header {
     color: #2F4858;
     max-width: 100%;
     height: auto;
-    padding: 1rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
