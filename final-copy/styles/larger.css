@@ -50,12 +50,17 @@
 
     #rental-summary {
         grid-column: 1/2;
-        grid-row: 2/3;
+        grid-row: 2/4;
     }
 
     #weather {
         grid-column: 2/4;
         grid-row: 2/3;
+    }
+
+    #social-media {
+        grid-column: 2/4;
+        grid-row: 3/4;
     }
 
     #current-weather, #forecast {

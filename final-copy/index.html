@@ -34,7 +34,7 @@
             <button id="banner-btn" type="button">⨉</button>
         </div>
 
-        <a href="index.html"><img src="images/scoots-logo.webp" alt="scoots logo" width="250" height="250"></a>
+        <a href="index.html"><img class="icons" src="images/logo.webp" alt="scoots logo" width="300" height="300"></a>
         
         <div id="company-header">
             <h1>~Scoots~</h1>
@@ -55,22 +55,22 @@
             <h2>Welcome to ~Scoots~</h2>
             
             <div class="large-view">
-                <img src="images/ocean-palm.webp" alt="ocean palm tree" width="600" height="800">
+                <img src="images/6x8-palm.webp" alt="ocean palm tree" width="600" height="800">
             </div>
 
             <div class="small-view">
-                <picture>
-                    <source srcset="images/hero-small.webp" media="(max-width: 600px)">
-                    <img src="images/hero-large.webp" alt="scooters near beach" width="1200" height="600">
-                </picture>
-            </div>
+                <img class="slide" src="images/10x5-market.webp" alt="market street" width="1000" height="500">
+                <img class="slide" src="images/10x5-jeep-beach-people.webp" alt="people in jeep on beach" width="1000" height="500">
+                <img class="slide" src="images/10x5-port.webp" alt="port by ocean" width="1000" height="500">
+                <img class="slide" src="images/10x5-scooters-beach.webp" alt="scooters by beach" width="1000" height="500">
+                <img class="slide" src="images/10x5-dock.webp" alt="dock" width="1000" height="500">
 
-            <div class="medium-view">
-                    <img src="images/jeep-beach-people.webp" alt="jeep beach people" width="600" height="300">
+                <button class="left" onclick="plusDivs(-1)">&#10094</button>
+                <button class="right" onclick="plusDivs(+1)">&#10095</button>
             </div>
 
             <div class="large-view">
-                <img src="images/jeep-beach.webp" alt="jeep on beach" width="600" height="800">
+                <img src="images/6x8-jeep-beach.webp" alt="jeep on beach" width="600" height="800">
             </div>
             
             <p>We are a owner-operator motor scooter rental company located on the island 
@@ -108,7 +108,10 @@
                 <li>Jeep Wrangler - 4 door</li>
                 <li>Jeep Wrangler - 2 door</li>
             </ul>
+
             <p>Click <a href="rentals.html">HERE</a> for more information.</p>
+
+            <img src="images/6x8-red-scooter.webp" alt="red scooter">
         </section>
 
         <section id="weather">
@@ -125,12 +128,10 @@
 
         <section id="social-media">
             <h3>Follow Us</h3>
-            <a href="http://www.facebook.com" target="_blank"><img class="icons" src="images/fb-icon.png" alt="facebook icon" width="48" height="48"></a>
-            <a href="http://www.instagram.com" target="_blank"><img class="icons" src="images/insta-icon.png" alt="instagram icon" width="48" height="48"></a>
-            <a href="http://www.linkedin.com" target="_blank"><img class="icons" src="images/link-icon.png" alt="linkedin icon" width="48" height="48"></a>
+            <a href="http://www.facebook.com" target="_blank"><img class="icons" src="images/icon-fb.png" alt="facebook icon" width="48" height="48"></a>
+            <a href="http://www.instagram.com" target="_blank"><img class="icons" src="images/icon-insta.png" alt="instagram icon" width="48" height="48"></a>
+            <a href="http://www.linkedin.com" target="_blank"><img class="icons" src="images/icon-link.png" alt="linkedin icon" width="48" height="48"></a>
         </section>
-
-        <img class="large-view bottom-img" src="images/jeep-beach-people.webp" alt="jeep beach people" width="600" height="300">
     </main>
 
     <footer>
@@ -143,7 +144,7 @@
             <a href="attributions.html">Attributions</a>
         </div>
 
-        <a href="index.html"><img src="images/scoots-logo.webp" alt="scoots logo" width="250" height="250"></a>
+        <a href="index.html"><img class="icons" src="images/logo.webp" alt="scoots logo" width="300" height="300"></a>
     
         <div class="project-info">
             <p>&#169; <span id="copyrightYear"></span> Ashley Smith - WDD 230 Final Project - BYU-Idaho</p>
@@ -153,6 +154,7 @@
     <script src="scripts/banner.js"></script>
     <script src="scripts/getdates.js"></script>
     <script src="scripts/hamburger.js"></script>
+    <script src="scripts/slideshow.js"></script>
     <script src="scripts/weather.js"></script>
 </body>
 </html>
