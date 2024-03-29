@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>~Scoots~ Motor Scooter Rentals - Cozumel, Mexico - Home Page</title>
+    <meta name="description" content="~Scoots~ Motor Scooter Rentals - Cozumel, Mexico - WDD 230 Project - Ashley Smith">
+    <meta name="author" content="Ashley Smith">
+
+    <!-- Social Media Tags -->
+    <meta property="og:title" content="~Scoots~ - Motor Scooter Rentals">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://unsplash.com/photos/people-riding-motorcycle-on-beach-side-nhXV1T9LVMg">
+    <meta property="og:url" content="https://ashesmsmith.github.io/wdd230/final/index">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Junge&family=Truculenta:opsz,wght@12..72,100..900&display=swap" rel="stylesheet">
+
+    <!-- Stylesheet & Icon-->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="images/favicon.ico">
+</head>
+
+<body>
+    <header>
+        <div id="banner-home">
+            <p>Today: <span id="banner-desc"></span> with a high of <span id="high"></span>°F</p>
+            <button id="banner-btn" type="button">⨉</button>
+        </div>
+
+        <a href="index.html"><img src="images/scoots-logo.webp" alt="scoots logo" width="250" height="250"></a>
+        
+        <div id="company-header">
+            <h1>~Scoots~</h1>
+            <p>Motor Scooter Rentals</p>
+        </div>
+    </header>
+
+    <button id="ham-btn" type="button"></button>
+    <nav>
+        <a href="#">|HOME|</a>
+        <a href="rentals.html">Rentals</a>
+        <a href="reservations.html">Reservations</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
+
+    <main id="home-main">
+        <section id="opening-main">
+            <h2>Welcome to ~Scoots~</h2>
+            
+            <div class="large-view">
+                <img src="images/ocean-palm.webp" alt="ocean palm tree" width="600" height="800">
+            </div>
+
+            <div class="small-view">
+                <picture>
+                    <source srcset="images/hero-small.webp" media="(max-width: 600px)">
+                    <img src="images/hero-large.webp" alt="scooters near beach" width="1200" height="600">
+                </picture>
+            </div>
+
+            <div class="medium-view">
+                    <img src="images/jeep-beach-people.webp" alt="jeep beach people" width="600" height="300">
+            </div>
+
+            <div class="large-view">
+                <img src="images/jeep-beach.webp" alt="jeep on beach" width="600" height="800">
+            </div>
+            
+            <p>We are a owner-operator motor scooter rental company located on the island 
+                of Cozumel off the coast of Mexico in the western Caribbean Sea. We cater 
+                to locals, walk-in tourists, motor scooter enthusiasts, and cruise-based 
+                touring groups and partnerships.</p>
+
+            <div id="call-to-action">
+                <h3>Call to Reserve!</h3>
+                <h4>1-555-555-5555</h4>
+            </div>
+        </section>
+
+        <section id="locations-nav">
+            <h3>TWO Locations!</h3>
+
+            <div class="location">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d29873.73609952129!2d-87.07246210917971!3d20.620009440652314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sPlaya%20del%20Carmen-Cozumel%20Ferry%20dock%20in%20el%20Centro%20de%20Cozumel!5e0!3m2!1sen!2sus!4v1710856757763!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <p>Near the Playa del Carmen-Cozumel Ferry dock in el Centro de Cozumel</p>
+            </div>
+            
+            <div class="location">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3737.7234073510053!2d-86.97343369999996!3d20.476550499999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e57491a71c81d%3A0x6933058e58e0ee3d!2sPuerta%20Maya%20Cruise%20Ship%20Maritime%20Terminal!5e0!3m2!1sen!2sus!4v1710856860803!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <p>Near the Terminal Puerta Maya further south along the coast</p>
+            </div>
+        </section>
+
+        <section id="rental-summary">
+            <h3>Wide Selection!</h3>
+            <ul>
+                <li>Honda Metro Scooter</li>
+                <li>Honda Dio Scooter</li>
+                <li>Honda PCX150 Scooter</li>
+                <li>Honda Pioneer ATV</li>
+                <li>Jeep Wrangler - 4 door</li>
+                <li>Jeep Wrangler - 2 door</li>
+            </ul>
+            <p>Click <a href="rentals.html">HERE</a> for more information.</p>
+        </section>
+
+        <section id="weather">
+            <div id="current-weather">
+                <h3>Current</h3>
+                <!-- Data filled using weather.js -->
+            </div>
+
+            <div id="forecast">
+                <h3>Tomorrow</h3>
+                <!-- Data filled using weather.js -->
+            </div>
+        </section>
+
+        <section id="social-media">
+            <h3>Follow Us</h3>
+            <a href="http://www.facebook.com" target="_blank"><img class="icons" src="images/fb-icon.png" alt="facebook icon" width="48" height="48"></a>
+            <a href="http://www.instagram.com" target="_blank"><img class="icons" src="images/insta-icon.png" alt="instagram icon" width="48" height="48"></a>
+            <a href="http://www.linkedin.com" target="_blank"><img class="icons" src="images/link-icon.png" alt="linkedin icon" width="48" height="48"></a>
+        </section>
+
+        <img class="large-view bottom-img" src="images/jeep-beach-people.webp" alt="jeep beach people" width="600" height="300">
+    </main>
+
+    <footer>
+        <div class="company-footer">
+            <h2>~Scoots~</h2>
+            <p>Motor scooter rentals</p>
+            <p>Cozumel, Mexico</p>
+            <p>Phone: 1-555-555-5555</p>
+            <p>Email: scootsrentals@email.com</p>
+            <a href="attributions.html">Attributions</a>
+        </div>
+
+        <a href="index.html"><img src="images/scoots-logo.webp" alt="scoots logo" width="250" height="250"></a>
+    
+        <div class="project-info">
+            <p>&#169; <span id="copyrightYear"></span> Ashley Smith - WDD 230 Final Project - BYU-Idaho</p>
+        </div>
+    </footer>
+
+    <script src="scripts/banner.js"></script>
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/weather.js"></script>
+</body>
+</html>

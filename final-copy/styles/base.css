@@ -1,0 +1,397 @@
+/* ALL PAGES */
+* {
+    font-family: 'Truculenta';
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(#55DDE0, #F6AE2D, #55DDE0, #F6AE2D, #55DDE0);
+}
+
+/* HEADER */
+header {
+    background-image: url('../images/shore1.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #55DDE0;
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    justify-content: center;
+}
+
+header img {
+    grid-column: 1/2;
+    max-width: 50%;
+    height: auto;
+    margin: 2rem;
+    border: 2px solid #2F4858;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #55DDE0;
+}
+
+#company-header {
+    grid-column: 2/3;
+}
+
+h1 {
+    font-size: calc(8vw + 1vh);
+    text-shadow: 2px 2px 5px white;
+}
+
+#company-header p {
+    font-size: calc(5vw + .5vh);
+}
+
+/* NAVIGATION */
+nav {
+    display: none;
+    background-color: #F6AE2D;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    display: block;
+    color: #2F4858;
+    font-size: 2rem;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:hover {
+    background-color: #55DDE0;
+    font-weight: bold;
+    box-shadow: 0 20px 20px -20px #2F4858 inset, 0 -20px 20px -20px #2F4858 inset;
+}
+
+        /* NAVIGATION - HAMBURGER MENU */
+#ham-btn {
+    background-color: #F6AE2D;
+    color: #2F4858;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    font-size: 2rem;
+    font-weight: bold;
+    border: none;
+    position: sticky;
+    top: 0;
+}
+
+#ham-btn::before {
+    content: '≡';
+}
+
+#ham-btn.show::before {
+    content: '⨉';
+}
+
+.show {
+    display: block;
+    text-align: center;
+}
+
+/* MAIN */
+main {
+    margin: 2rem;
+}
+
+main section, form, #agreement {
+    background-color: white;
+    margin: 3rem auto;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0px -25px 20px -20px white, 25px 0 20px -20px white,
+         0px 25px 20px -20px white, -25px 0 20px -20px white;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Junge';
+    letter-spacing: .25rem;
+    text-align: center;
+}
+
+h2 {
+    background-color: white;
+    font-size: 1.8rem;
+    margin: 2rem auto;
+    padding: 1rem;
+    border-radius: 10px;
+    border-top: 2px solid #F6AE2D;
+    border-bottom: 2px solid #F6AE2D;
+    box-shadow: 0px -25px 20px -20px #F6AE2D, 0px 25px 20px -20px #F6AE2D;
+}
+
+h3 {
+    font-size: 1.6rem;
+    margin: 2rem auto;
+    padding: 1rem;
+    border-radius: 10px;
+    border-top: 2px solid #55DDE0;
+    border-bottom: 2px solid #55DDE0;
+    box-shadow: 0px -25px 20px -20px #55DDE0, 0px 25px 20px -20px #55DDE0;
+}
+
+h4 {
+    font-size: 1.4rem;
+}
+
+p, ul {
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 2rem;
+    padding: .5rem;
+}
+
+img, iframe {
+    max-width: 100%;
+    height: auto;
+    margin: 2rem auto;
+    box-shadow: 0 0 15px #2F4858;
+}
+
+iframe {
+    display: block;
+    margin: 3rem auto 1rem auto;
+}
+
+.icons {
+    margin: 0 auto;
+    box-shadow: none;
+}
+
+/* FOOTER */
+footer {
+    background-color: #2F4858;
+    color: #55DDE0;
+    padding: 1rem;
+    text-align: center;
+}
+
+footer h2 {
+    background-color: #2F4858;
+    margin: 0;
+    border: none;
+    box-shadow: none;
+}
+
+footer a {
+    color: white;
+}
+
+footer img {
+    max-width: 50%;
+    height: auto;
+    margin: 2rem;
+    border: 2px solid #2F4858;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #55DDE0;
+}
+
+.project-info {
+    grid-column: 1/3;
+    color: #F6AE2D;
+}
+
+/* HOME PAGE - MAIN */
+#banner-home {
+    grid-column: 1/4;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: white;
+    padding: 1rem;
+    box-shadow: 0 20px 20px -20px #F6AE2D inset, 0 -20px 20px -20px #55DDE0 inset;
+}
+
+#banner-home p {
+    max-width: 1000px;
+    height: auto;
+    text-align: center;
+}
+
+#banner-btn {
+    background-image: linear-gradient(#55DDE0, #F6AE2D);
+    font-weight: bold;
+    margin: .5rem 1rem;
+    padding: .5rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.medium-view, .large-view {
+    display: none;
+}
+
+#call-to-action {
+    font-weight: bold;
+    width: 90%;
+    margin: 2rem auto;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 20px 20px -20px #55DDE0 inset, 0 -20px 20px -20px #55DDE0 inset,
+        20px 0 20px -20px #F6AE2D inset, -20px 0 20px -20px #F6AE2D inset;
+}
+
+#call-to-action h3, #call-to-action h4 {
+    margin: 0;
+    padding: 1rem auto;
+    border: none;
+    box-shadow: none;
+}
+
+#rental-summary ul {
+    list-style: none;
+}
+
+#rental-summary p {
+    margin: 2rem auto;
+    border-radius: 10px;
+    box-shadow: 0 20px 20px -20px #55DDE0 inset, 0 -20px 20px -20px #55DDE0 inset,
+        20px 0 20px -20px #F6AE2D inset, -20px 0 20px -20px #F6AE2D inset;
+}
+
+#rental-summary a {
+    color: black;
+    font-family: 'Junge';
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#weather {
+    text-align: center;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+#social-media {
+    text-align: center;
+}
+
+#social-media a {
+    padding: .5rem;
+}
+
+/* RENTALS PAGE - MAIN */
+#rentals-main h3 {
+    margin: 1rem auto;
+    border: none;
+    box-shadow: none;
+}
+
+#rentals-main section {
+    border-radius: 5px 20px;
+}
+
+table {
+    display: table;
+    margin: 2rem auto;
+    border-collapse: collapse;
+    border: 1px solid #2F4858;
+}
+
+caption {
+    display: none;
+}
+
+tr, td {
+    text-align: center;
+    border: 1px solid #2F4858;
+}
+
+td {
+    padding: .5rem;
+}
+
+.orange {
+    background-color: #F6AE2D;
+}
+
+.blue {
+    background-color: #55DDE0;
+}
+
+.orange, .blue {
+    font-size: 1.2rem;
+}
+
+/* RESEVERATIONS PAGE - MAIN */
+#agreement ul {
+    text-align: left;
+    margin-left: 1rem;
+}
+
+fieldset {
+    margin: 2rem auto;
+    padding: 2rem;
+    border: 2px solid #F6AE2D;
+    border-top: 5px solid #F6AE2D;
+    border-radius: 10px;
+}
+
+fieldset p {
+    text-align: left;
+}
+
+legend {
+    font-family: 'Junge';
+    font-size: 2rem;
+    letter-spacing: .25rem;
+}
+
+label {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+label.top input, textarea{
+    display: block;
+    width: 80%;
+    font-weight: normal;
+    margin: .5rem auto 1.5rem 0;
+    padding: .5rem;
+}
+
+.sbs {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: normal;
+    padding: .5rem;
+}
+
+.sbs input {
+    margin: .5rem;
+}
+
+form p {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 1.5rem auto .5rem 0;
+}
+
+#reservation-btn {
+    background-color: #55DDE0;
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: .25rem;
+    padding: 2rem;
+    border: none;
+    border-radius: 10px;
+}
+
+#reservations-main img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    box-shadow: 0 0 10px #2F4858;
+}
+
+/* CONTACT US - MAIN */

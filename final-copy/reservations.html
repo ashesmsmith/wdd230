@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>~Scoots~ Motor Scooter Rentals - Cozumel, Mexico - Reservations Page</title>
+    <meta name="description" content="~Scoots~ Motor Scooter Rentals - Cozumel, Mexico - WDD 230 Project - Ashley Smith">
+    <meta name="author" content="Ashley Smith">
+
+    <!-- Social Media Tags -->
+    <meta property="og:title" content="~Scoots~ - Motor Scooter Rentals">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://unsplash.com/photos/people-riding-motorcycle-on-beach-side-nhXV1T9LVMg">
+    <meta property="og:url" content="https://ashesmsmith.github.io/wdd230/final/index">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Junge&family=Truculenta:opsz,wght@12..72,100..900&display=swap" rel="stylesheet">
+
+    <!-- Stylesheet & Icon-->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="images/favicon.ico">
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><img src="images/scoots-logo.webp" alt="scoots logo" width="250" height="250"></a>
+        <div id="company-header">
+            <h1>~Scoots~</h1>
+            <p>Motor Scooter Rentals</p>
+        </div>
+    </header>
+
+    <button id="ham-btn" type="button"></button>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="rentals.html">Rentals</a>
+        <a href="#">|RESERVATIONS|</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
+
+    <main id="reservations-main">
+        <h2>Reservations</h2>
+
+        <div id="agreement">
+            <h3>Rental Services and Agreements</h3>
+            <ul>
+                <li>A $50 security deposit is required to confirm reservations.</li>
+                <li>A valid drivers license is required in hand at the time of rental.</li>
+                <li>No one under the age of 12 years of age are allowed to ride on the scooters.</li>
+                <li>Fuel charge is not included.</li>
+                <li>Unlimited mileage.</li>
+                <li>Liability insurance is included.</li>
+                <li>Damage insurance is available for purchase.</li>
+                <li>Free delivery to Cozumel hotels or Airbnbs for 2+ day rentals.</li>
+                <li>Payment via Google Pay, Apple Pay, cash, credit card, debit card, or venmo.</li>
+                <li>Rentals may be returned to either physical location.</li>
+            </ul>
+        </div>
+
+        <picture>
+            <source srcset="images/jeep-beach-people.webp" media="(max-width: 999px)">
+            <img src="images/jeep-beach.webp" alt="jeep on beach" width="600" height="300">
+        </picture>
+
+        <form method="get" action="thankyou.html">
+            <fieldset>
+                <legend>Reservation Details</legend>
+
+                <label class="top">*Rental Date: <input type="date" name="date" id="rental-date"></label>
+                
+                <p>*Choose one:</p>
+                <label class="sbs"><input type="radio" name="day" value="half">Half Day (3hrs)</label>
+                <label class="sbs"><input type="radio" name="day" value="full">Full Day</label>
+                
+                <p>*Please choose a rental:</p>
+                <label class="sbs"><input type="radio" name="rental" value="metro">Honda Metropolitan (49cc)</label>
+                <label class="sbs"><input type="radio" name="rental" value="dio">Honda Dio (110cc)</label>
+                <label class="sbs"><input type="radio" name="rental" value="pcx150">Honda PCX150 (149cc)</label>
+                <label class="sbs"><input type="radio" name="rental" value="atv">Honda Pioneer 1000 ATV</label>
+                <label class="sbs"><input type="radio" name="rental" value="jeep2">Jeep Wrangler - 2 door</label>
+                <label class="sbs"><input type="radio" name="rental" value="jeep4">Jeep Wrangler - 4 door</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Renter Information</legend>
+
+                <label class="top">*Renter First Name:<input type="text" name="fname" id="fname" required></label>
+                <label class="top">*Renter Last Name:<input type="text" name="lname" id="lname" required></label>
+                <label class="top">*Phone Number:<input type="tel" name="phone" id="phone" required></label>
+                <label class="top">*Email:<input type="email" name="email" id="email" required placeholder="something@email.com"></label>
+                <label class="top">*Home State/Country:<input type="text" name="state" id="state" required></label>
+                <label class="top">Crusie Line (if applicable):<input type="text" name="cruise" id="crusie"></label>
+                <label class="top">Special Accommodations/Comments<textarea name="comments" id="comments"></textarea></label>
+            </fieldset>
+
+            <button type="submit" id="reservation-btn">Resevere Now</button>
+        </form>
+    </main>
+
+    <footer>
+        <div class="company-footer">
+            <h2>~Scoots~</h2>
+            <p>Motor scooter rentals</p>
+            <p>Cozumel, Mexico</p>
+            <p>Phone: 1-555-555-5555</p>
+            <p>Email: scootsrentals@email.com</p>
+            <a href="attributions.html">Attributions</a>
+        </div>
+
+        <a href="index.html"><img src="images/scoots-logo.webp" alt="scoots logo" width="250" height="250"></a>
+    
+        <div class="project-info">
+            <p>&#169; <span id="copyrightYear"></span> Ashley Smith - WDD 230 Final Project - BYU-Idaho</p>
+        </div>
+    </footer>
+
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/hamburger.js"></script>
+</body>
+</html>
