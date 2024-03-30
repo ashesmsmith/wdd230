@@ -1,4 +1,4 @@
-const url = 'https://ashesmsmith.github.io/wdd230/final/data/rentals.json';
+const url = 'https://ashesmsmith.github.io/wdd230/final-copy/data/rentals.json';
 const rentalsMain = document.querySelector('#rentals');
 
 async function getRentals () {
