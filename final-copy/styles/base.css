@@ -354,8 +354,9 @@ td {
 fieldset {
     margin: 2rem auto;
     padding: 2rem;
-    border: 2px solid #F6AE2D;
+    border: 2px solid #55DDE0;
     border-top: 5px solid #F6AE2D;
+    border-bottom: 5px solid #F6AE2D;
     border-radius: 10px;
 }
 
@@ -374,7 +375,7 @@ label {
     font-weight: bold;
 }
 
-label.top input, textarea{
+label.top input, textarea {
     display: block;
     width: 80%;
     font-weight: normal;
@@ -407,14 +408,6 @@ form p {
     padding: 2rem;
     border: none;
     border-radius: 10px;
-}
-
-#reservations-main img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-    margin: 0 auto;
-    box-shadow: 0 0 10px #2F4858;
 }
 
 /* CONTACT US - MAIN */
