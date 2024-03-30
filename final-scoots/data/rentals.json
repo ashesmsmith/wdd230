@@ -1,0 +1,63 @@
+{
+    "rentals" : [
+        {
+            "type" : "Honda Metropolitan (49cc)-Scooter",
+            "capacity" : "1",
+            "reservehalf" : "20",
+            "reservefull" : "30",
+            "walkinhalf" : "25",
+            "walkinfull" : "35",
+            "img" : "images/640-metro.webp"
+        }
+        ,
+        {
+            "type" : "Honda Dio (110cc)-Scooter",
+            "capacity" : "2",
+            "reservehalf" : "30",
+            "reservefull" : "40",
+            "walkinhalf" : "35",
+            "walkinfull" : "45",
+            "img" : "images/640-dio.webp"
+        }
+        ,
+        {
+            "type" : "Honda PCX150 (149cc)-Scooter",
+            "capacity" : "2",
+            "reservehalf" : "40",
+            "reservefull" : "50",
+            "walkinhalf" : "45",
+            "walkinfull" : "55",
+            "img" : "images/640-pcx150.webp"
+        }
+        ,
+        {
+            "type" : "Honda Pioneer 1000-ATV",
+            "capacity" : "4",
+            "reservehalf" : "50",
+            "reservefull" : "70",
+            "walkinhalf" : "60",
+            "walkinfull" : "80",
+            "img" : "images/640-atv.webp"
+        }
+        ,
+        {
+            "type" : "Jeep Wrangler-2 door-open air-manual",
+            "capacity" : "4",
+            "reservehalf" : "60",
+            "reservefull" : "85",
+            "walkinhalf" : "70",
+            "walkinfull" : "90",
+            "img" : "images/640-jeep-2.webp"
+        }
+        ,
+        {
+            "type" : "Jeep Wrangler-4 door-A/C-manual",
+            "capacity" : "5",
+            "reservehalf" : "70",
+            "reservefull" : "100",
+            "walkinhalf" : "85",
+            "walkinfull" : "125",
+            "img" : "images/640-jeep-4.webp"
+        }
+    ]
+}
