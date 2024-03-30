@@ -5,15 +5,12 @@
     padding: 0;
 }
 
-body {
-    background-image: linear-gradient(#55DDE0, #F6AE2D, #55DDE0, #F6AE2D, #55DDE0);
-}
-
 /* HEADER */
 header {
     background-image: url('../images/12x6-shore.webp');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     background-color: #55DDE0;
     width: 100%;
     height: auto;
@@ -46,6 +43,7 @@ h1 {
 /* NAVIGATION */
 nav {
     display: none;
+    background-image: linear-gradient(to right, #55DDE0, #F6AE2D);
     background-color: #F6AE2D;
     position: sticky;
     top: 0;
@@ -63,13 +61,12 @@ nav a {
 nav a:hover {
     background-color: #55DDE0;
     font-weight: bold;
-    box-shadow: 0 20px 20px -20px white inset, 0 -20px 20px -20px white inset;
 }
 
     /* NAVIGATION - HAMBURGER MENU */
 #ham-btn {
+    background-image: linear-gradient(to right, #55DDE0, #F6AE2D);
     background-color: #F6AE2D;
-    color: #2F4858;
     width: 100%;
     height: auto;
     margin: 0;
@@ -99,13 +96,8 @@ main {
     margin: 3rem;
 }
 
-main section, form {
-    background-color: white;
-    margin: 3rem auto;
-    padding: 2rem;
-    border-radius: 20px;
-    box-shadow: 0px -25px 20px -20px white, 25px 0 20px -20px white,
-         0px 25px 20px -20px white, -25px 0 20px -20px white;
+main section {
+    margin: 5rem auto;
 }
 
 h1, h2, h3, h4 {
@@ -115,24 +107,25 @@ h1, h2, h3, h4 {
 }
 
 h2 {
-    background-color: white;
     font-size: 1.8rem;
     margin: 2rem auto;
     padding: 1rem;
-    border-radius: 10px;
-    border-top: 2px solid #F6AE2D;
-    border-bottom: 2px solid #F6AE2D;
-    box-shadow: 0px -25px 20px -20px #F6AE2D, 0px 25px 20px -20px #F6AE2D;
+    border: 10px solid;
+    border-image-slice: 1;
+    border-width: 5px;
+    border-image-source: linear-gradient(to left, #55DDE0, #F6AE2D);
 }
 
 h3 {
     font-size: 1.6rem;
     margin: 2rem auto;
     padding: 1rem;
-    border-radius: 10px;
-    border-top: 2px solid #55DDE0;
-    border-bottom: 2px solid #55DDE0;
-    box-shadow: 0px -25px 20px -20px #55DDE0, 0px 25px 20px -20px #55DDE0;
+    border: 5px solid;
+    border-image-slice: 1;
+    border-width: 3px;
+    border-image-source: linear-gradient(to left, #55DDE0, #F6AE2D);
+    border-left: none;
+    border-right: none;
 }
 
 h4 {
@@ -235,7 +228,7 @@ footer img {
     padding: .5rem;
     border: none;
     background-color: white;
-    opacity: .6;
+    opacity: .8;
 }
 
 .right {
@@ -246,37 +239,30 @@ footer img {
     left: 0;
 }
 
-.medium-view, .large-view {
+.large-view {
     display: none;
 }
 
- /* SECTIONS */
+    /* SECTIONS */
 #call-to-action {
+    background-image: linear-gradient(#55DDE0, #F6AE2D);
+    background-color: #55DDE0;
     font-weight: bold;
     width: 90%;
     margin: 2rem auto;
     padding: 1rem;
-    border-radius: 10px;
-    box-shadow: 0 20px 20px -20px #55DDE0 inset, 0 -20px 20px -20px #55DDE0 inset,
-        20px 0 20px -20px #F6AE2D inset, -20px 0 20px -20px #F6AE2D inset;
+    border-radius: 20px;
 }
 
 #call-to-action h3, #call-to-action h4 {
+    line-height: 3rem;
     margin: 0;
     padding: 1rem auto;
     border: none;
-    box-shadow: none;
 }
 
 #rental-summary ul {
     list-style: none;
-}
-
-#rental-summary p {
-    margin: 2rem auto;
-    border-radius: 10px;
-    box-shadow: 0 20px 20px -20px #55DDE0 inset, 0 -20px 20px -20px #55DDE0 inset,
-        20px 0 20px -20px #F6AE2D inset, -20px 0 20px -20px #F6AE2D inset;
 }
 
 #rental-summary a {
@@ -306,11 +292,14 @@ footer img {
 #rentals-main h3 {
     margin: 1rem auto;
     border: none;
-    box-shadow: none;
 }
 
 #rentals-main section {
-    border-radius: 5px 20px;
+    padding: 2rem;
+    border: 5px solid;
+    border-image-slice: 1;
+    border-width: 3px;
+    border-image-source: linear-gradient(to left, #55DDE0, #F6AE2D);
 }
 
 table {
@@ -354,10 +343,10 @@ td {
 fieldset {
     margin: 2rem auto;
     padding: 2rem;
-    border: 2px solid #55DDE0;
-    border-top: 5px solid #F6AE2D;
-    border-bottom: 5px solid #F6AE2D;
-    border-radius: 10px;
+    border: 5px solid;
+    border-image-slice: 1;
+    border-width: 3px;
+    border-image-source: linear-gradient(to left, #55DDE0, #F6AE2D);
 }
 
 fieldset p {
@@ -401,6 +390,7 @@ form p {
 }
 
 #reservation-btn {
+    background-image: linear-gradient(#55DDE0, #F6AE2D);
     background-color: #55DDE0;
     font-size: 2rem;
     font-weight: bold;
@@ -411,3 +401,10 @@ form p {
 }
 
 /* CONTACT US - MAIN */
+#contact-main form {
+    padding: 2rem;
+    border: 5px solid;
+    border-image-slice: 1;
+    border-width: 3px;
+    border-image-source: linear-gradient(to left, #55DDE0, #F6AE2D);   
+}
