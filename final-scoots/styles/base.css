@@ -389,3 +389,9 @@ form p {
 #maps div {
     margin: 3rem auto;
 }
+
+/* ATTRIBUTIONS - MAIN */
+#attributions-main ul {
+    line-height: 2rem;
+    list-style: none;
+}
