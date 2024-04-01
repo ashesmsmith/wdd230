@@ -16,8 +16,8 @@ function displayRentals(data) {
         let img = document.createElement('img');
             img.setAttribute('src', `${rental.img}`);
             img.setAttribute('alt', `${rental.type}`);
-            img.setAttribute('width', '640');
-            img.setAttribute('height', '640');
+            img.setAttribute('width', '300');
+            img.setAttribute('height', '400');
             img.setAttribute('loading', 'lazy')
         let type = document.createElement('h3');
             type.innerHTML = rental.type;
